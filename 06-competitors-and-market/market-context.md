@@ -5,8 +5,8 @@ type: market
 status: approved
 confidence: verified
 source: MFAA/Cotality via MPA (Jun 2026); The Loans Suite's own published blog content; local market reporting
-as_of: 2026-08-26
-researched: 2026-08-26
+as_of: 2026-08-27
+researched: 2026-08-27
 owner: Tumai (Team OS)
 tags: [market, context, trends, regulation]
 ---
@@ -30,12 +30,11 @@ argues the category case; that content is now fighting a won battle.
 plausibly part of why share keeps climbing. It also constrains everything we can say — see
 [nccp-and-best-interests-duty](../07-compliance-and-guardrails/nccp-and-best-interests-duty.md).
 
-**SMSF residential lending restricted from 10 August 2026.** A live change that reshapes one
-of the nine product lines. See [home-suite-smsf](../02-offer-and-lending/home-suite-smsf.md).
-
-**Payday Super from 1 July 2026** — super paid with wages, within seven days, replacing
-quarterly. A universal cash-flow squeeze on every Australian employer and the single best
-dated trigger for the business-finance audience.
+**Four regulatory changes landed in the year to August 2026** — the SMSF residential borrowing
+ban (in force 10 Aug 2026), the expansion of the 5% Deposit Scheme (1 Oct 2025), the launch of
+Help to Buy (5 Dec 2025), and Payday Super (in force 1 Jul 2026). **The client's website is out
+of date on three of them.** Each is simultaneously a correction and a campaign trigger — full
+detail and sources in [regulatory-changes-2026](regulatory-changes-2026.md).
 
 **APRA's 3% serviceability buffer** continues to constrain borrowing capacity, and continues
 to surprise borrowers who expect to borrow more than they can.
@@ -56,17 +55,26 @@ the market and are safe to build on:
 
 ## Local markets
 
-**Moreton Bay / Redcliffe, QLD.** Median house price around $950,000 in early 2026, up
-roughly 15.9% year on year *(secondary reporting — verify before publishing)*. Historically
-an affordable-entry corridor now pricing out first home buyers, which pushes them toward
-deposit schemes, guarantors and deposit bonds — precisely what the Enaybl partnership and the
-first-home content address. Rail access to Brisbane and continued infrastructure investment
-support the growth story.
+**Moreton Bay / Redcliffe / Rothwell, QLD.** Reported medians as at mid-2026: Redcliffe
+**~$992,500–$1.01M** (+21% to +23% year on year), Rothwell **~$1.03M** (+17.4%), Moreton Bay
+region ~$1.17M. Sources disagree by material margins — treat as a range.
 
-**Penrith / western Sydney, NSW.** Sydney's affordable-entry corridor, with strong first home
-buyer and investor activity. Jessica covers this market.
+**The structural fact that matters more than the exact number: Redcliffe's median has converged
+on the $1,000,000 Queensland cap for the Australian Government 5% Deposit Scheme.** A corridor
+that was an affordable entry point three years ago is now buying *at the cap*, which changes
+what a first home buyer can actually do here and pushes them toward deposit schemes, guarantors
+and deposit bonds — precisely what the Enaybl partnership and the first-home content address.
+Rail access to Brisbane and continued infrastructure investment support the growth story.
 
-**Verify both local figures against CoreLogic/Cotality or realestate.com.au before use.**
+**Penrith / western Sydney, NSW.** Reported medians range widely, roughly **$880,000 to $1.1M**,
+with growth reported between 7.4% (five-year average) and 14.98% (recent). Comfortably under the
+**$1,500,000** NSW scheme cap, so the 5% Deposit Scheme is available across almost the whole
+market — the opposite situation to Redcliffe. Western Sydney Airport is scheduled to open in
+2026, and the area is projected to reach 350,000 residents by 2036. Jessica covers this market.
+
+**All local figures are `inferred` from secondary property-data aggregators. Verify against
+CoreLogic or realestate.com.au before publishing a specific number**, or publish a range and
+say so.
 
 ## Where the demand is heading
 
@@ -81,5 +89,6 @@ Three currents worth building content and campaigns around:
 
 ## Related
 
+- [regulatory-changes-2026](regulatory-changes-2026.md) — what changed and what the site still says
 - [statistics-and-sources](../05-proof-and-evidence/statistics-and-sources.md)
 - [README](README.md) · [blog-and-seo](../08-channels-and-playbooks/blog-and-seo.md)

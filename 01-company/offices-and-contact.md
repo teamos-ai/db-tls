@@ -5,7 +5,7 @@ type: company
 status: approved
 confidence: verified
 source: theloanssuite.com.au site footer, /contact, /about; Google Maps link embedded in homepage HTML
-as_of: 2026-08-26
+as_of: 2026-08-27
 owner: Karlie Scharfenberg
 tags: [contact, offices, locations, service-area, nap]
 ---
@@ -73,14 +73,31 @@ Some internal documents describe the offices as **"Redcliffe / Newport"**. They 
 **Rothwell QLD** and **Penrith NSW**. Rothwell is near Redcliffe; Newport is where a
 *referral partner* (Belle Property) sits, not The Loans Suite.
 
+## Directory hygiene — two findings
+
+**A stale, unclaimed Localsearch listing** for "The Loans Suite" shows the business in
+**Wollongong NSW**, marked *"Unclaimed Business"*, *"Trading for 4 years"*, with zero reviews.
+Wrong location, wrong region, no reviews — it dilutes local search and should be claimed and
+corrected or removed. *(Found 2026-08-27.)*
+
+**A former NSW address.** A Word of Mouth review dated November 2019 lists The Loans Suite at
+**Suite 2, 20-24 Castlereagh Street, Penrith NSW 2750** — not the current Durant St address.
+Worth checking whether any directory, citation or old listing still carries it, since
+inconsistent NAP data across directories is one of the most common local-SEO drags.
+
 ## Social and web
 
 - Website: **theloanssuite.com.au**
-- Instagram: **@the.loans.suite**
-- Facebook: **facebook.com/theloanssuitesydney**
+- Instagram: **@the.loans.suite** (listed as Rothwell, QLD)
+- Facebook: **facebook.com/theloanssuitesydney** — linked from the site
+- Facebook: **facebook.com/theloanssuiteaustralia** — a **second page**, found 2026-08-27
 
-There is **no published LinkedIn, TikTok or YouTube presence** in the sources. Do not
-reference channels that do not exist.
+**Two Facebook pages is a problem, not an asset.** Reviews, followers and posting history split
+across both, and a visitor who finds the wrong one sees a quieter business than actually exists.
+Consolidating or merging them is a prerequisite for any social or review strategy.
+
+There is **no published LinkedIn, TikTok or YouTube presence** in the sources. LinkedIn is the
+notable absence — it is where referral partners and sub-broker recruits actually are.
 
 ## Related
 

@@ -105,7 +105,7 @@ traffic actually is.
 - [ ] **Hardship path:** if the funnel can surface financial distress, the National Debt
       Helpline (1800 007 007) is offered alongside the call
 - [ ] Mobile checked — most traffic is
-- [ ] Testimonial used is one of the five, verbatim, owned channel only
+- [ ] Testimonial used is one of the six, verbatim, attributed as published
 
 ## Worked example — the Equity Check funnel
 

@@ -99,7 +99,7 @@ exists. Kaiden's generational story is genuinely distinctive.
 - [ ] Any client reference de-identified, no figures, not framed as typical
 - [ ] Brand colours and fonts; zero radius
 - [ ] Video captioned
-- [ ] Testimonials verbatim and attributed as published
+- [ ] Testimonials verbatim and attributed as published (all six cleared for any channel)
 - [ ] Awards in exact wording with year and body
 - [ ] Australian English
 

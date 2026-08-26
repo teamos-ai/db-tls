@@ -60,7 +60,7 @@ a number that isn't listed.
 | Insight into the credit policies of more than 60 reputable Australian-based lenders | verified — site |
 | Every file passes a principal quality check before it is lodged | verified — internal (`Karlie Mentor Check`, Pipeline 2). **Confirm with Karlie before publishing** |
 
-## Testimonials — owned channels only, pending permission
+## Testimonials — cleared for all channels
 
 | Line | Attribution | Best for |
 |---|---|---|
@@ -69,8 +69,10 @@ a number that isn't listed.
 | answered in a fast and easy to comprehend way | Senna F | Education |
 | **Karlie worked overnight and over a few days to save us from losing our new house and deposit** | Samantha G | **The best proof the business owns** |
 | Really good communication and easily explained all the processes | Samuel C. | First home buyer |
+| when the banks wouldn't look twice | braydonn (Word of Mouth, 2019) | Declined / complex borrowers |
 
-**Not for paid advertising until written permission is confirmed.** See
+**All six are cleared for any channel, including paid.** Verbatim, attributed as published.
+Quote a customer saying "approved" — never adopt the word in our own voice. See
 [testimonials](../05-proof-and-evidence/testimonials.md).
 
 ## Market data — attribute every time

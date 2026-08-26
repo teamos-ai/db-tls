@@ -28,7 +28,7 @@ If a figure is on this list and someone asks for it, the correct answer is
 | Trail book size | **Does not exist as a verified figure.** An internal document cites "$50M+" with no source. Unusable |
 | Approval or success rate | **Does not exist.** Would breach [guardrails](../07-compliance-and-guardrails/guardrails.md) even if it did |
 | Average saving from refinancing | **Does not exist.** Never "our clients save on average $X" |
-| Years in business / founding year | **Does not exist.** Karlie joined in 2016; the entity's founding date is unpublished |
+| Years in business / founding year | **Does not exist.** Karlie joined in 2016; both current companies were registered in 2023 and 2024, yet the brand was trading in 2019. No register supports a business-age claim. See [licensing-and-entity](../01-company/licensing-and-entity.md) |
 | Client satisfaction score / NPS | **Does not exist** |
 | Google review count or rating | **Not captured** — reviews may exist, but no figure is verified here |
 | Number of team members' combined experience | **Contradictory.** The /about page says "decades of combined experience" — that vague phrase is publishable; a number is not |
@@ -64,6 +64,14 @@ case study on a regulated credit product is an invented claim.
    residential loans. The current figure is **81.0%** (MFAA/Cotality, March 2026 quarter).
    The blog is not wrong for its date, but must never be cited as current. See
    [statistics-and-sources](statistics-and-sources.md).
+5. **Payday Super:** the blog says contributions must reach the fund within *"seven calendar
+   days"*. It is **seven business days**. See
+   [regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md).
+6. **SMSF:** the site frames the residential borrowing ban as forthcoming. It has been in force
+   since 10 August 2026.
+7. **Company name:** do not name either company in an outward-facing disclosure until Karlie
+   confirms which entity holds credit representative 477350. The **numbers** in the footer are
+   safe; the company name is not yet settled.
 
 ## Claims belonging to other businesses — never adopt
 
@@ -92,7 +100,7 @@ For balance — the verified proof inventory is genuinely decent:
 - **Seven calculators** and a client portal
 - **Karlie: Cert IV and Diploma in Finance & Mortgage Broking Management, NSW Justice of the
   Peace, with the business since 2016**
-- **Five customer testimonials** (owned channels only, pending permission)
+- **Six customer testimonials**, cleared for every channel including paid
 
 ## Related
 

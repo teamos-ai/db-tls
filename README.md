@@ -74,7 +74,9 @@ Numbering is the load order: **ground truth → strategy → generation.**
 6. **Every external figure** must be in `05-proof-and-evidence/statistics-and-sources.md`
    first, with source and period.
 7. **Hardship is never a sales opportunity.** National Debt Helpline: **1800 007 007**.
-8. **When uncertain, leave it out.** "This isn't in the database" is a valid answer.
+8. **Never name a company in a disclosure block** until the entity question is resolved —
+   the footer *numbers* are safe. See `01-company/licensing-and-entity.md`.
+9. **When uncertain, leave it out.** "This isn't in the database" is a valid answer.
 
 Full detail: [`07-compliance-and-guardrails/guardrails.md`](07-compliance-and-guardrails/guardrails.md).
 
@@ -91,7 +93,7 @@ Every file carries `confidence:` in its frontmatter.
 - **`assumed`** — a working placeholder. **Never publishable.** Stays on the roadmap until
   upgraded.
 
-**Current state: 59 verified · 22 inferred · 0 assumed in publishable files.**
+**Current state: 61 verified · 21 inferred · 0 assumed in publishable files.**
 
 The `inferred` files are concentrated in `03-audience-and-icp` — every ICP is reasoned from
 the client's marketing copy rather than from a prospect's mouth. That is the central weakness
@@ -105,7 +107,10 @@ of this build and the top item on the roadmap.
 |---|---|---|
 | theloanssuite.com.au full scrape — 71 pages, 110 assets, computed CSS | All published copy, awards, design tokens, systems | Aug 2026 |
 | Karlie's GoHighLevel / Salestrekker configuration | 6 pipelines with real stage names | Aug 2026 |
-| Public ACL register, MFAA/Cotality market data, competitor sites | Licensing, market context, teardowns | Aug 2026 |
+| **ABN Lookup, ASIC credit licence register** | Both company entities, ACNs, registration dates, the licensee behind ACL 387025 | 27 Aug 2026 |
+| **The Adviser official awards records (2023, 2024, 2025)** | Every award placement, with individual attributions | 27 Aug 2026 |
+| **Housing Australia, ATO, APRA, QRO, Revenue NSW** | Scheme rules, SMSF ban, Payday Super, buffer, stamp duty | 27 Aug 2026 |
+| MFAA / Cotality, competitor websites, property data | Market share, teardowns, local medians | Aug 2026 |
 
 Full provenance, including **four errors found in derived summary documents**, is in
 [`99-source-material/source-register.md`](99-source-material/source-register.md).

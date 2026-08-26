@@ -4,8 +4,8 @@ title: Voice of customer — what we actually have
 type: icp
 status: approved
 confidence: verified
-source: theloanssuite.com.au homepage testimonial carousel (five entries, verbatim)
-as_of: 2026-08-26
+source: theloanssuite.com.au homepage testimonial carousel (five, verbatim); wordofmouth.com.au (one, verbatim, researched 2026-08-27)
+as_of: 2026-08-27
 owner: Tumai (Team OS)
 tags: [voice-of-customer, testimonials, verbatim, gap]
 ---
@@ -16,11 +16,10 @@ tags: [voice-of-customer, testimonials, verbatim, gap]
 > improvement available.** Five testimonials is all the real customer language that exists.
 > Every ICP file in this folder is `inferred` because of it.
 
-## The five verbatim testimonials
+## The six verbatim testimonials
 
-These are the **only** genuine customer words in the entire source set. They are `verified`
-as published; their **permission status is unknown** — see
-[testimonials](../05-proof-and-evidence/testimonials.md) before using any of them.
+These are the **only** genuine customer words in the entire source set. All six are cleared for
+use in any channel — see [testimonials](../05-proof-and-evidence/testimonials.md).
 
 > I've used Kaiden, Karlie and the team at The Loans Suite a few times now (home loan and
 > personal loan), and every time it's been **super-fast and simple**.
@@ -45,7 +44,7 @@ as published; their **permission status is unknown** — see
 ## What the language tells us
 
 **Words customers actually use:** super-fast, simple, wonderful, amazing, easy to comprehend,
-really good communication, great team, supporting us, saved us.
+really good communication, great team, supporting us, saved us, every step of the way.
 
 **Words customers never use:** rate, competitive, panel, structure, solution, tailored,
 bespoke, strategy, architect.
@@ -53,6 +52,16 @@ bespoke, strategy, architect.
 That gap matters. The brand's own vocabulary — *architects, structuring, strategic* — is
 seller language. The customer vocabulary is *fast, simple, explained, supported*. **Headlines
 should use customer language; the reasoning underneath can use the brand's.**
+
+## Two customers, five years apart, describing the same thing
+
+> After the bank cancelled our unconditional approval, Karlie worked overnight… *(2026)*
+
+> …when the banks wouldn't look twice. *(2019)*
+
+Independent, half a decade apart, both describing **a lender saying no and a person fighting
+it.** That is a pattern, not a service claim — and it is the one thing a comparison site and a
+bank branch structurally cannot replicate.
 
 ## The Samantha G testimonial
 
@@ -70,8 +79,9 @@ bank" argument — subject to Samantha's permission.
 
 - **No recorded discovery or sales calls.** The highest-value voice-of-customer source in any
   business, and there are none in the source set.
-- **No Google or Facebook review exports.** Reviews exist (the business has a Google Maps
-  listing and a Facebook page) but none are captured here.
+- **No Google or Facebook review exports.** Reviews exist — the business has a Google Business
+  Profile and **two** Facebook pages — but none are captured here, and Google blocks automated
+  retrieval.
 - **No client survey, NPS or post-settlement feedback.**
 - **No objection language captured from actual calls** — every objection in
   [objections](../10-faq-and-objections/objections.md) is reasoned, not recorded.
@@ -82,7 +92,10 @@ bank" argument — subject to Samantha's permission.
    `inferred` to `verified` in one pass.
 2. **Export every Google and Facebook review.** Free, immediate, and the language is already
    customer-generated.
-3. **Get permission on the five existing testimonials**, starting with Samantha G.
+3. **Export every Google review.** Automated retrieval is blocked by Google's bot check, so
+   someone signed in to the Business Profile has to do it. A search snapshot on 27 Aug 2026
+   surfaced further review text naming *"Karlie, Jess, Lisa and Carms"* — more reviews
+   demonstrably exist and are currently invisible to this database.
 4. **Ask three recent clients one question:** *"What were you worried about before you called
    us?"* Three answers would be worth more than another thousand words of inference.
 

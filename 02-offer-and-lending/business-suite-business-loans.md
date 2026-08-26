@@ -63,13 +63,21 @@ untapped positioning in the business.**
 
 From the same blog post, both `verified` against the site's own publication:
 
-- **Payday Super** — from **1 July 2026**, employers must pay super at the same time as
-  wages, reaching the fund within **seven calendar days of payday**, replacing quarterly.
-  A direct, dated cash-flow squeeze on every employer in the country.
+- **Payday Super — in force since 1 July 2026.** Employers must pay super at the same time as
+  wages, and the contribution must **reach the fund within 7 BUSINESS days** of payday,
+  replacing the quarterly cycle. Calculated on **"qualifying earnings"** at **12%**, every pay run.
 - **ATO compliance pressure** driving businesses to seek finance to meet obligations.
 
-Payday Super is the single best business-finance campaign trigger available. It has a date,
-it affects every employer, and it creates a working-capital need.
+> **Correction, verified 2026-08-27.** The client's blog says *"within seven calendar days of
+> payday"* and frames the change as forthcoming. It is **seven business days**, and it has been
+> in force for nearly two months. Both need fixing — see
+> [regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md).
+
+Payday Super remains the single best business-finance campaign trigger available — and it is
+better now than when the blog was written, because it is **already biting** rather than pending.
+It converts a quarterly cash outflow into a per-payday one, which is a working-capital event.
+
+**Never give payroll, tax or super advice.** Describe the change; refer them to their accountant.
 
 ## Related
 

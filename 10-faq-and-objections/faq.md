@@ -100,13 +100,23 @@ not have the features, flexibility or lender policy you need."* *(site)*
 
 **How much deposit do I need?**
 It depends on the lender, the property and whether you're eligible for any government schemes.
-Twenty percent is a common guideline rather than a rule — some options exist with less.
-*(site)*
+Twenty percent is a common guideline rather than a rule — and since October 2025 the Australian
+Government 5% Deposit Scheme has had no place limits and no income caps, so a 5% deposit is a
+realistic path for many first home buyers within the property price caps. *(verified 2026-08-27)*
 
 **What government schemes are available?**
-The site names three: the Australian Government 5% Deposit Scheme, the First Home Super Saver
-Scheme, and the Help to Buy Scheme. Eligibility depends on the scheme rules, your state and
-your circumstances — worth checking current details before relying on any of them. *(site)*
+Three main ones. The **Australian Government 5% Deposit Scheme** — since 1 October 2025 there
+are no place limits and no income caps, with property price caps of $1,000,000 in Brisbane and
+Queensland regional centres and $1,500,000 in Sydney and NSW regional centres. The **First Home
+Super Saver Scheme** — up to $15,000 a year and $50,000 in total in voluntary super
+contributions. And **Help to Buy**, a shared equity scheme open since December 2025, where the
+government takes up to 40% of a new home or 30% of an existing one. Eligibility depends on the
+scheme rules, your state and your circumstances. *(verified 2026-08-27)*
+
+**Can you help me with Help to Buy?**
+Help to Buy has only a small number of participating lenders, and as at July 2026 only one of
+them is accessible through brokers. It is worth a conversation about whether the scheme suits
+you and what the route to it looks like.
 
 **What's the difference between pre-approval and approval?**
 Pre-approval is a lender's conditional indication, subject to conditions and an expiry date —
@@ -163,13 +173,19 @@ asset's age, condition, value and expected useful life."* *(site)*
 ## SMSF
 
 **Can an SMSF still borrow to buy residential property?**
-New SMSF borrowing for residential property is being restricted from 10 August 2026. Existing
-arrangements may not be affected, but anyone considering a purchase should get advice before
-taking action. *(site — **re-verify current status before answering**)*
+No. New SMSF borrowing to acquire residential property has been banned since **10 August 2026**.
+Existing arrangements are grandfathered, and **refinancing an existing residential SMSF loan is
+still permitted**. Anyone with an existing arrangement should get advice before acting.
+*(verified 2026-08-27 — **re-verify before each publication**)*
+
+**Can I refinance my existing SMSF residential loan?**
+Generally yes — refinancing existing arrangements remains permitted on substantially the same
+terms. Whether it suits your fund is a question for your accountant, financial adviser or SMSF
+specialist alongside the lender.
 
 **Can an SMSF borrow for commercial property?**
-*"SMSF borrowing for commercial property may still be available, subject to the fund, the
-property, lender requirements and the correct SMSF loan structure."* *(site)*
+Yes — borrowing to acquire **business real property** is still available, subject to the fund,
+the property, lender requirements and the correct SMSF loan structure. *(site + verified 2026-08-27)*
 
 **Do I need advice before an SMSF loan?**
 *"Yes. SMSF lending involves superannuation law, tax, investment strategy and lending

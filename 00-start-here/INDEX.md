@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: verified
 source: n/a — this is the catalogue
-as_of: 2026-08-26
+as_of: 2026-08-27
 owner: Tumai (Team OS)
 tags: [index, catalogue, navigation]
 ---
@@ -83,8 +83,8 @@ Every file, one line on what it holds, and when to load it.
 
 | File | Holds | Load when |
 |---|---|---|
-| [awards](../05-proof-and-evidence/awards.md) | Seven badges, exact wording, usage rules | Any credibility claim |
-| [testimonials](../05-proof-and-evidence/testimonials.md) | The five, verbatim, with permission caveats | Any social proof |
+| [awards](../05-proof-and-evidence/awards.md) | Eight placements verified against the awarding bodies, with individual attributions | Any credibility claim |
+| [testimonials](../05-proof-and-evidence/testimonials.md) | Six, verbatim, cleared for every channel | Any social proof |
 | [what-we-cannot-claim](../05-proof-and-evidence/what-we-cannot-claim.md) | **The explicit inventory of what does not exist** | **Before any number** |
 | [statistics-and-sources](../05-proof-and-evidence/statistics-and-sources.md) | Every external figure with source and period | **Before any external figure** |
 
@@ -95,9 +95,10 @@ Every file, one line on what it holds, and when to load it.
 | [README](../06-competitors-and-market/README.md) | The three competitor types, comparison matrix | Positioning work |
 | [competitor-aussie](../06-competitors-and-market/competitor-aussie.md) | The national franchise benchmark | Positioning |
 | [competitor-borro](../06-competitors-and-market/competitor-borro.md) | Closest local rival — and the local SEO and review gaps | Local strategy |
-| [competitor-loan-market-aqua](../06-competitors-and-market/competitor-loan-market-aqua.md) | Local franchise. **Thin — re-do manually** | Local strategy |
+| [competitor-loan-market-aqua](../06-competitors-and-market/competitor-loan-market-aqua.md) | **The local franchise that beats us on panel size (100+ vs 60+)** | Local strategy |
 | [competitor-lendi-and-portals](../06-competitors-and-market/competitor-lendi-and-portals.md) | The digital threat and its structural weakness | Any "why a broker" argument |
 | [competitor-bank-direct](../06-competitors-and-market/competitor-bank-direct.md) | The remaining 19%, and the front-book argument | Cold acquisition |
+| [regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md) | **The four changes in force this year, and what the site still gets wrong** | **Any scheme, SMSF or business-finance asset** |
 | [market-context](../06-competitors-and-market/market-context.md) | Category growth, regulation, local markets, where demand is heading | Content planning |
 | [glossary](../06-competitors-and-market/glossary.md) | Terms and the site's own definitions | Any explainer content |
 

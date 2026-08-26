@@ -5,7 +5,7 @@ type: company
 status: approved
 confidence: verified
 source: theloanssuite.com.au — homepage, /about, /contact, /solutions, /privacy-policy, site footer (scraped Aug 2026)
-as_of: 2026-08-26
+as_of: 2026-08-27
 owner: Karlie Scharfenberg
 tags: [company, profile, overview, positioning]
 ---
@@ -30,7 +30,7 @@ line, **"Your financial architects."**
 |---|---|
 | **The Loans Suite** (primary, conversational) | ~~The Loan Suite~~ (singular — wrong, but appears in some internal docs and in the site's own `/calculators/mortgage-stress` page) |
 | **The Loans Suite Australia** (formal, SEO titles, legal contexts) | ~~TLS~~ in client-facing copy (internal shorthand only) |
-| **Queens of Finance Pty Ltd t/as The Loans Suite** (legal only) | |
+| **The Loans Suite Group Australia Pty Ltd** — the entity that holds the business name and won the 2023 award | ~~Naming any company in a disclosure block~~ until Karlie confirms which entity holds the credit rep authorisation. See [licensing-and-entity](licensing-and-entity.md) |
 
 Domain: **theloanssuite.com.au** — note the double "s". Staff email domain is
 **tlsga.com.au** (a separate domain to the website).
@@ -80,8 +80,14 @@ From the published copy, four reasons, in the site's own framing:
 
 ## Verified recognition
 
-Seven award badges are displayed on the homepage, /about and /calculators —
-four from The Adviser's Australian Broking Awards and three from Specialist Finance Group.
+**A national win and seven shortlistings across two award programs, 2023–2024** — verified
+against The Adviser's own winners and finalists records, not just the badge artwork.
+
+The headline: **Winner, Independent Office of the Year, The Adviser Australian Broking Awards
+2023** — won against a field including Home Loan Experts and Shore Financial. Individual 2024
+shortlistings are now correctly attributed to Karlie and Jessica, and an eighth placement
+(Karlie, Finance Broker of the Year 2023) was found that the website does not display.
+
 Exact wording, which must not be paraphrased, is in [awards](../05-proof-and-evidence/awards.md).
 
 ## What this file does not contain

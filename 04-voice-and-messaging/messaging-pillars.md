@@ -87,11 +87,17 @@ when a deal goes wrong, someone is personally on it.
 > days to save us from losing our new house and deposit.
 > — Samantha G
 
+> Karlie and Emma not only helped me get approved for a loan, they were with me every step of
+> the way **when the banks wouldn't look twice.**
+> — braydonn, 2019
+
 > Over 60 banks, credit unions, and non-bank lenders compared.
 
-**Why it works:** panel size alone is a commodity claim that invites a bigger number. Panel
-size *plus a person who fights* is not replicable by a comparison site or a bank branch —
-which is exactly what the two structural competitors are.
+**Why it works:** panel size alone is a commodity claim that invites a bigger number — and
+locally it loses, since the Moreton Bay Loan Market franchise claims 100+. Panel breadth *plus a
+person who fights* is not replicable by a comparison site or a bank branch, which are the two
+structural competitors. **Two customers five years apart describe exactly that** — Samantha G in
+2026 and braydonn in 2019, *"when the banks wouldn't look twice."*
 
 **Strongest for:** investors at a serviceability wall, complex or self-employed borrowers,
 anyone recently declined.

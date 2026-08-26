@@ -15,26 +15,39 @@ tags: [offer, smsf, superannuation, restricted, compliance-sensitive]
 > **The most compliance-sensitive line in the business. Read
 > [guardrails](../07-compliance-and-guardrails/guardrails.md) before writing anything here.**
 
-## The regulatory change that reshapes this offer
+## The regulatory change that reshapes this offer — NOW IN FORCE
 
-The site states plainly:
+**Verified 2026-08-27.** The ban commenced on **10 August 2026**, 45 days after the Treasury
+Laws Amendment (Tax Reform No. 1) Bill 2026 received Royal Assent on 26 June 2026. Full detail
+and sources in
+[regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md).
 
-> New SMSF borrowing for residential property is being restricted from **10 August 2026**.
-> Existing arrangements may not be affected, but anyone considering a purchase should get
-> advice before taking action.
+**The site is out of date.** It says the restriction *"is being restricted from 10 August 2026"*
+— future tense. It is in force. Every SMSF asset written now must say so.
 
-That date has **passed** as at this database's `as_of`. Any asset written now must reflect
-that the restriction is in force, not approaching. **Re-verify the current state of the
-rules before publishing anything on SMSF** — this is the fastest-decaying fact in the
-database.
+### What is banned, and what survived
 
-## What remains, per the site
+| | |
+|---|---|
+| **Banned** | **New** LRBAs to acquire **residential** property |
+| **Grandfathered** | **Existing** SMSF residential LRBAs are unaffected |
+| **Still permitted** | **Refinancing** an existing residential LRBA, on substantially the same terms |
+| **Still permitted** | LRBAs to acquire **business real property** (commercial) |
 
-> SMSF borrowing for **commercial property** may still be available, subject to the fund,
-> the property, lender requirements and the correct SMSF loan structure.
+### The two live markets this creates
 
-The offer has effectively pivoted from residential SMSF to **commercial property SMSF**.
-Copy should follow that pivot.
+**1 · SMSF refinancing.** There is now a closed, finite population of trustees holding
+residential SMSF loans who can never buy another one — and whose only remaining lever is
+refinancing. Their existing lenders know they cannot easily leave the product, which is exactly
+the condition under which back-book pricing drifts. **This is a real, addressable, time-bounded
+audience and nobody local is speaking to it.**
+
+**2 · Commercial SMSF.** A business owner buying their own premises through their fund is still
+a live transaction — and it cannot proceed without an accountant in the room, which makes it the
+strongest B2B referral line in the business.
+
+**The offer has pivoted from "SMSF property purchase" to "SMSF refinancing and commercial."**
+The website has not.
 
 ## The mandatory posture
 

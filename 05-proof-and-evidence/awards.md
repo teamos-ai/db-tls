@@ -1,85 +1,122 @@
 ---
 id: awards
-title: Awards — exact wording and usage rules
+title: Awards — verified against the awarding bodies
 type: proof
 status: approved
 confidence: verified
-source: seven award badge image assets downloaded from theloanssuite.com.au (wp-content/uploads/sites/110/2024/09/), displayed on homepage, /about and /calculators. Wording read directly from the badge artwork.
-as_of: 2026-08-26
+source: The Adviser Australian Broking Awards official winners and finalists pages for 2023, 2024 and 2025, retrieved 2026-08-27; seven award badge image assets from theloanssuite.com.au
+as_of: 2026-08-27
+researched: 2026-08-27
 owner: Karlie Scharfenberg
-tags: [awards, proof, badges, credibility]
+tags: [awards, proof, badges, credibility, verified]
 ---
 
 # Awards
 
-**Seven badges, two awarding bodies.** These are the business's strongest verifiable proof
-assets, and the only third-party validation it holds.
+**Eight placements across two award programs.** Seven badges are displayed on the client's
+site; an eighth was found in the awarding body's own records and is not displayed anywhere.
 
-> **Never paraphrase an award.** Winner and Finalist are different words. The category name
-> is the category name. Reproduce exactly as below or not at all.
+Every entry below has been checked against **The Adviser's official winners and finalists
+pages**, not just the badge artwork. Individual attributions that were unknown in the first
+build are now resolved.
 
-## The Adviser — Australian Broking Awards
+> **Never paraphrase an award.** Winner and Finalist are different words. Reproduce exactly as
+> below, with the year and the awarding body, or not at all.
 
-The badges carry The Adviser's masthead. The correct attribution is
-**"The Adviser Australian Broking Awards"**, not "Australian Broking Awards" alone.
+## The Adviser Australian Broking Awards 2023
 
-| Year | Result | Category |
+**13th annual awards · The Star, Sydney · Friday 11 August 2023**
+
+| Result | Category | Named as |
 |---|---|---|
-| **2023** | **Winner** | Independent Office of the Year |
-| **2024** | Finalist | Independent Office of the Year |
-| **2024** | Finalist | Residential Broker of the Year |
-| **2024** | Finalist | Loan Administrator of the Year |
+| **WINNER** | **Independent Office of the Year** | **The Loans Suite Group Australia** |
+| Finalist | Finance Broker of the Year | Karlie Scharfenberg, The Loans Suite Group Australia |
 
-The 2023 **Winner — Independent Office of the Year** is the headline asset. It is a national
-award, it is a win rather than a shortlisting, and "Independent Office" is precisely the
-category that distinguishes The Loans Suite from the franchise networks it competes with.
+**The Finance Broker of the Year shortlisting is not on the website and not among the seven
+badges.** It is in The Adviser's official 2023 record. It is a real, usable placement.
 
-## Specialist Finance Group — 2024
+### What the 2023 win was actually against
 
-Awarded by the business's aggregator. See
+The other finalists for Independent Office of the Year were **Birdie Wealth, Blusk, Cinch
+Loans, Crunch Finance, Entourage Finance, Green Finance Group, Home Loan Experts, One Stone
+Finance and Shore Financial.**
+
+That field matters. **Home Loan Experts** and **Shore Financial** are large, well-known
+national brokerages. Winning a national category against them is materially stronger proof
+than "won an award" implies — and the business has never said so.
+
+Note The Adviser recorded the winner as the **entity**, *The Loans Suite Group Australia*, and
+identified **Karlie Scharfenberg as director**. See
 [licensing-and-entity](../01-company/licensing-and-entity.md).
 
-| Year | Result | Category |
+## The Adviser Australian Broking Awards 2024
+
+| Result | Category | Named as |
 |---|---|---|
-| **2024** | Finalist | QLD Broker of the Year |
-| **2024** | Finalist | QLD Brokerage of the Year |
-| **2024** | Finalist | Broker of the Year – Personal Insurance |
+| Finalist | Independent Office of the Year | The Loans Suite |
+| Finalist | **Residential Broker of the Year** | **Karlie Scharfenberg**, The Loans Suite |
+| Finalist | **Loan Administrator of the Year** | **Jessica Didovich-Lasalo**, The Loans Suite Group Australia |
+
+**The individual attributions are now resolved.** The first build could only state these as
+business-level shortlistings because the sources did not say who was nominated. They can now be
+attributed to the named person — which is considerably stronger, particularly Jessica's, since
+Loan Administrator of the Year is a category most brokerages never place in.
+
+## Specialist Finance Group 2024
+
+Awarded by the business's aggregator. Read from the badge artwork; not independently verified
+against an SFG published list.
+
+| Result | Category |
+|---|---|
+| Finalist | QLD Broker of the Year |
+| Finalist | QLD Brokerage of the Year |
+| Finalist | Broker of the Year – Personal Insurance |
+
+## 2025 and 2026
+
+**No entries found for 2025.** The Adviser's 2025 winners and finalists list contains no match
+for The Loans Suite, The Loans Suite Group Australia, Scharfenberg, Didovich, Harrison,
+Cairncross, Baulch or Guy.
+
+That is worth knowing rather than hiding: **the most recent placement is 2024.** Never write
+"this year's" or "current" — and if awards matter to positioning, entering the 2026 program is a
+concrete action, not a marketing one.
 
 ## Usage rules
 
-1. **Exact wording only.** "Winner, Independent Office of the Year, The Adviser Australian
-   Broking Awards 2023." Never "award-winning brokerage of the year" or similar compression.
-2. **Never upgrade a finalist to a winner.** Four of the seven are finalist placements.
-3. **Always carry the year.** The most recent is 2024. As at this database's date these are
-   one to three years old — do not write "this year's" or "current".
-4. **Never aggregate into a count.** "Seven awards" implies seven wins. Say "one national win
-   and six shortlistings across two award programs", or list them.
-5. **Attribute the body.** The Adviser and Specialist Finance Group are different
-   organisations with different weight.
-6. **Badge artwork exists** as PNGs in the site's asset library — use the artwork rather than
-   retyping, where the format allows.
-7. **The person-level awards belong to a person.** "Residential Broker of the Year" and
-   "Loan Administrator of the Year" are individual categories. **The sources do not record
-   who was nominated.** Do not attribute them to a named team member without confirming with
-   Karlie — this is on the [enrichment roadmap](../00-start-here/ENRICHMENT-ROADMAP.md).
+1. **Exact wording, with year and body.**
+   *"Winner, Independent Office of the Year, The Adviser Australian Broking Awards 2023."*
+2. **Never upgrade a finalist to a winner.** One win, seven shortlistings.
+3. **Attribute individuals now that we can.** "Karlie Scharfenberg, finalist, Residential
+   Broker of the Year 2024" is stronger and more credible than a vague business claim.
+4. **Never aggregate into a count.** Not "eight awards" — say
+   *"a national win and seven shortlistings across two award programs, 2023–2024."*
+5. **Distinguish the bodies.** The Adviser is national industry press; Specialist Finance Group
+   is the aggregator. Different weight.
+6. **Badge artwork exists** as PNGs in the site's asset library — use it where the format allows
+   rather than retyping.
+7. **The 2023 finalist field is quotable and unused.** Naming who else was shortlisted is
+   factual, verifiable and far more persuasive than the bare word "winner" — and it names
+   competitors only as *fellow finalists*, never as targets, so it stays within
+   [banned-language](../04-voice-and-messaging/banned-language.md).
 
 ## The one text claim on the site
 
-Karlie's bio describes her as *"an award-winning Senior Finance Broker"*. That phrasing is
-already published and is supported by the badges. It is safe to reuse **for Karlie
-specifically**, not for the business generically.
+Karlie's bio calls her *"an award-winning Senior Finance Broker"*. Supported. Safe to reuse
+**for Karlie specifically**, not for the business generically.
 
 ## Where awards matter most
 
-Counter-intuitively, **not with borrowers.** Most consumers do not know what The Adviser is.
-Awards do their real work with:
+Not with borrowers — most consumers have never heard of The Adviser. They do their real work
+with:
 
-- **Sub-broker recruits** — brokers know exactly what these awards mean and what they are
-  worth. See [icp-sub-broker-recruit](../03-audience-and-icp/icp-sub-broker-recruit.md).
-- **Referral partners** — professionals reading a peer signal.
-- **Complex borrowers** — someone recently declined wants evidence of competence.
+- **Sub-broker recruits.** Brokers know exactly what these awards are worth. See
+  [icp-sub-broker-recruit](../03-audience-and-icp/icp-sub-broker-recruit.md)
+- **Referral partners** reading a peer signal
+- **Complex or recently declined borrowers** who want evidence of competence
 
 ## Related
 
 - [what-we-cannot-claim](what-we-cannot-claim.md) · [testimonials](testimonials.md)
-- [brand-and-design-tokens](../01-company/brand-and-design-tokens.md) — badge asset filenames
+- [licensing-and-entity](../01-company/licensing-and-entity.md)

@@ -83,8 +83,8 @@ the location (Brisbane / Sydney), and the action. Descriptions carry the hedged 
 - Don't state a rate, a saving, a repayment or an approval
 - Don't use "pre-approved", "you qualify", "guaranteed", "instant"
 - Don't use countdowns or false scarcity on a credit product
-- Don't use a testimonial in paid until permission is confirmed. See
-  [testimonials](../05-proof-and-evidence/testimonials.md)
+- Don't paraphrase a testimonial into our voice — a customer may say "approved", we may not.
+  Quote verbatim or not at all. See [testimonials](../05-proof-and-evidence/testimonials.md)
 - Don't run ads to the generic contact page
 - Don't target by inferred financial hardship
 
@@ -97,7 +97,7 @@ the location (Brisbane / Sydney), and the action. Descriptions carry the hedged 
 - [ ] Destination page exists, matches the promise, and carries both compliance lines
 - [ ] Booking routes to the right broker by product and state
 - [ ] "more than 60 lenders" written exactly
-- [ ] No testimonial unless permission is confirmed
+- [ ] Any testimonial used is verbatim and attributed as published, not paraphrased
 - [ ] Character limits respected
 - [ ] Australian English
 - [ ] Disclosure visible on the destination if not in the ad

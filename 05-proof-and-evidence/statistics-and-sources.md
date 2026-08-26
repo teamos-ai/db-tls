@@ -5,8 +5,8 @@ type: proof
 status: approved
 confidence: verified
 source: each figure carries its own source below; external figures researched 2026-08-26
-as_of: 2026-08-26
-researched: 2026-08-26
+as_of: 2026-08-27
+researched: 2026-08-27
 owner: Tumai (Team OS)
 tags: [statistics, data, sources, market-data]
 ---
@@ -94,6 +94,52 @@ The best dated campaign trigger available for the business-finance audience.
 | Source | The Loans Suite `/solutions/the-home-suite/smsf-lending/` |
 | Status | **Date has passed.** Re-verify current state before any SMSF asset ships |
 
+## Regulatory and scheme figures — all verified 2026-08-27
+
+Full context and sources in
+[regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md).
+
+| Figure | Detail | Source |
+|---|---|---|
+| **SMSF residential borrowing ban** | In force **10 Aug 2026**. New residential LRBAs banned; existing grandfathered; **refinancing still permitted**; business real property still permitted | Treasury Laws Amendment (Tax Reform No. 1) Bill 2026, Royal Assent 26 Jun 2026 |
+| **5% Deposit Scheme — places** | **Uncapped** since 1 Oct 2025 | Housing Australia |
+| **5% Deposit Scheme — income caps** | **Removed** since 1 Oct 2025 | Housing Australia |
+| **5% Deposit Scheme — QLD cap** | **$1,000,000** capital and regional centres; $700,000 other areas | Housing Australia |
+| **5% Deposit Scheme — NSW cap** | **$1,500,000** capital and regional centres; $800,000 other areas | Housing Australia |
+| **Help to Buy — launched** | **5 Dec 2025**; all states and territories participating as at Jun 2026 | Housing Australia |
+| **Help to Buy — places** | **10,000** for 2026–27 | Housing Australia |
+| **Help to Buy — income caps** | **$110,000** individual / **$180,000** joint or single parent, from 1 Jul 2026 | Housing Australia |
+| **Help to Buy — equity share** | Up to **40%** new home / **30%** existing | Housing Australia |
+| **Help to Buy — lenders** | CBA (branch only, no broker access) and **Bank Australia (broker accessible)**, as at Jul 2026 | Industry reporting |
+| **Payday Super** | In force **1 Jul 2026**. Contribution must reach the fund within **7 business days** of payday. Calculated on **qualifying earnings** at **12%** | ATO |
+| **FHSSS caps** | **$15,000/year, $50,000 total.** Concessional contributions taxed at 15%; 30% FHSS tax offset on release | ATO |
+| **APRA serviceability buffer** | **3%**, unchanged. Confirmed 23 Jul 2025 and maintained through 2026 | APRA |
+| **QLD stamp duty — new homes** | Full transfer duty concession, **no price cap**, eligible transactions from 1 May 2025 | Queensland Revenue Office |
+| **QLD stamp duty — established** | Full first home concession under **$700,000**, sliding to **$800,000**, none above | Queensland Revenue Office |
+| **QLD FHOG** | **$30,000 until 30 Jun 2026**, then reverts to **$15,000** — so **$15,000 now** | Queensland Revenue Office |
+| **QLD residency requirement** | From **1 Aug 2026**, purchasers claiming a home concession must be a citizen, PR or specified foreign retiree | Queensland Revenue Office |
+| **NSW stamp duty — first home** | Full exemption at **$800,000 or less**; partial concession **$800,001–$1,000,000** | Revenue NSW |
+
+## Local market data
+
+> **Tier note:** the medians below come from **secondary property-data aggregators**, which
+> disagree with each other by material margins. They are `inferred`. **Verify against CoreLogic
+> or realestate.com.au before publishing any specific figure** — or publish a range and say so.
+
+| Market | Reported median house price | Reported growth | Researched |
+|---|---|---|---|
+| **Redcliffe QLD 4020** | **~$992,500 – $1.01M** | +21.0% to +22.8% year on year | 2026-08-27 |
+| **Rothwell QLD 4022** | ~$1,028,266 | +17.4% year on year | 2026-08-27 |
+| Moreton Bay region | ~$1,168,587 | — | 2026-08-27 |
+| **Penrith NSW 2750** | **~$880,000 – $1.1M** *(sources vary widely)* | +7.4% 5-yr average to +14.98% recent | 2026-08-27 |
+
+**The one durable insight**, which does not depend on the exact figure: **Redcliffe's median has
+converged on the $1,000,000 Queensland cap for the 5% Deposit Scheme.** That is a real,
+locally-specific, non-obvious fact for first home buyers, and it holds across every source.
+
+Penrith context: Western Sydney Airport is scheduled to open in 2026, and the area is projected
+to reach 350,000 residents by 2036. *(Secondary reporting — verify before use.)*
+
 ## Competitor panel sizes
 
 | Competitor | Published figure | Source | Researched |
@@ -101,16 +147,15 @@ The best dated campaign trigger available for the business-finance audience.
 | Aussie | *"over 25 leading lenders"* | aussie.com.au | 2026-08-26 |
 | Borro | *"30+ lenders"* | borro.com.au | 2026-08-26 |
 | **The Loans Suite** | **"more than 60 lenders"** | theloanssuite.com.au | 2026-08-26 |
+| **Loan Market Aqua** (local) | **"over 100" / "100+" / "90+"** — inconsistent on their own page | broker.loanmarket.com.au | **2026-08-27** |
+| AFG (aggregator) | "over 80 lenders" | afgonline.com.au | 2026-08-27 |
+
+**Correction:** the local Loan Market franchise claims a materially larger panel than The Loans
+Suite, on the same Moreton Bay footprint. **Panel size is not a claim to lead on locally.** See
+[lender-panel](../02-offer-and-lending/lender-panel.md).
 
 **Internal use only.** Never publish a competitor comparison. See
 [banned-language](../04-voice-and-messaging/banned-language.md).
-
-## Local market context
-
-| Figure | Median house price, Redcliffe QLD **~$950,000**, up **15.9%** year on year |
-|---|---|
-| Source | realestate.com.au, reported February 2026, via local market summaries |
-| Status | `inferred` — secondary reporting, not read from the primary source. **Verify against CoreLogic/Cotality or realestate.com.au directly before publishing** |
 
 ## Rules
 

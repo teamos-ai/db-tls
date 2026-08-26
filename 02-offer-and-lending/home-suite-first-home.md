@@ -38,30 +38,58 @@ Also published: help with pre-approvals, *"knowing how much you could borrow, ho
 deposit you may need, the impact of your current debts or spending and what your repayments
 might look like."*
 
-## The three schemes named on the site
+## The three schemes — verified and updated 2026-08-27
 
-**Handle with care — scheme rules change and eligibility is never ours to assert.**
-See [claims-policy](../07-compliance-and-guardrails/claims-policy.md).
+**Handle with care — eligibility is never ours to assert.** See
+[claims-policy](../07-compliance-and-guardrails/claims-policy.md). Full sources in
+[regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md).
 
-**Australian Government 5% Deposit Scheme**
-> Fast-track your path to home ownership… making home ownership more achievable by helping
-> you buy sooner with a small deposit.
+### 1 · Australian Government 5% Deposit Scheme — the site's copy predates three major changes
 
-**First Home Super Saver Scheme**
+Renamed from the Home Guarantee Scheme on **1 October 2025**, when it was expanded:
+
+- **Places are now uncapped**
+- **Income caps removed entirely** (previously $125k single / $200k couple)
+- **Property price caps raised** — QLD capital and regional centres **$1,000,000** (was
+  $700,000); NSW capital and regional centres **$1,500,000** (was $900,000)
+- 5% deposit, **LMI avoided**
+
+**The local angle nobody is using:** Redcliffe's median house price is now around **$1.0M** and
+the Queensland cap is **$1,000,000**. A first home buyer in Redcliffe, Rothwell or Kippa-Ring is
+now buying *right at the cap* — which makes the gap between a $980,000 and a $1,020,000 property
+the difference between using the scheme and not. That is specific, local, non-obvious and
+genuinely useful, and no national competitor will publish it.
+
+Penrith is the easier case: a median well under the $1.5M NSW cap means the scheme is available
+across almost the whole market.
+
+**The site's current copy is generic and pre-dates all of this.**
+
+### 2 · First Home Super Saver Scheme — the site is correct
+
 > You can make voluntary contributions up to **$15,000 per year** and **$50,000 in total**
 > to your super (on top of what your employer already pays) – either before tax through
 > salary sacrifice or after tax as personal contributions.
 
-**Australian Government Help to Buy Scheme**
-> Limited information available on this one! The Help to Buy Scheme is a new initiative
-> designed to make home ownership more achievable with shared equity support from the
-> Australian Government. This scheme is not for everyone.
+**Confirmed against the ATO, 2026-08-27.** Caps unchanged. Concessional contributions are taxed
+at 15%, with a 30% FHSS tax offset applying on release. Re-verify before each publication —
+caps have moved before.
 
-The Help to Buy copy is a model of honest hedging — it says outright that the business
-doesn't have full information. Keep that instinct.
+### 3 · Help to Buy — open since December 2025, and the site doesn't know
 
-**Before using any scheme figure in an asset, re-verify it.** The $15,000/$50,000 FHSSS
-caps are as published on the site; confirm against the ATO at time of publication.
+The site currently says: *"Limited information available on this one!"* That was honest when
+written. It is now the most fixable content gap on the website.
+
+- **Launched 5 December 2025.** All states and territories participating as at June 2026
+- **10,000 places** for 2026–27
+- **Income caps raised 1 July 2026** to **$110,000** individual, **$180,000** joint or single parent
+- Government contributes up to **40%** of a new home, **30%** of an existing home
+- **Only two participating lenders as at July 2026: Commonwealth Bank (branch only, no broker
+  access) and Bank Australia (broker accessible)**
+
+**That last point is the opportunity.** Almost no consumer knows the scheme is open, and almost
+no broker can transact it. Being the local broker who can actually explain it — and who has a
+route to it — is a differentiated position precisely because the field is so thin.
 
 ## The real emotional job
 

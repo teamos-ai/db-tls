@@ -1,215 +1,226 @@
 ---
 id: enrichment-roadmap
-title: Enrichment roadmap — every gap, ranked by leverage
+title: Enrichment roadmap — the gap map
 type: system
 status: approved
 confidence: verified
-source: gap analysis from the S1 source harvest and the S9 audit of this database
-as_of: 2026-08-26
+source: S1 gap analysis, the S9 audit, and a deep research pass conducted 2026-08-27
+as_of: 2026-08-27
+researched: 2026-08-27
 owner: Tumai (Team OS)
 tags: [roadmap, gaps, enrichment, priorities, interview-agenda]
 ---
 
-# Enrichment roadmap
+# Enrichment roadmap — the gap map
 
-**An honest list of what this database doesn't know.** Ranked by leverage — what would most
-improve the quality of generated assets, not what is easiest.
+**An honest map of what this database knows, what research closed, and what only the client can
+answer.**
 
-**Current truth tiers:** 59 files `verified` · 22 `inferred` · 0 `assumed` in publishable
-files. Every `assumed` item found in the sources was quarantined rather than written into a
-usable file. The concentration of `inferred` is in **03-audience-and-icp** and that is the
-central weakness of this build.
+**Truth tiers: 61 `verified` · 21 `inferred` · 0 `assumed` in publishable files.**
 
 ---
 
-## The top three
+## Part 1 — closed by research, 27 August 2026
+
+Nine gaps from the first build are now filled from primary and public sources.
+
+| Was a gap | Now | Landed in |
+|---|---|---|
+| **Who was nominated for the 2024 individual awards?** | **Karlie Scharfenberg** — Residential Broker of the Year. **Jessica Didovich-Lasalo** — Loan Administrator of the Year. Verified against The Adviser's own records | [awards](../05-proof-and-evidence/awards.md) |
+| **Is the 2023 award real?** | **Verified.** Winner, Independent Office of the Year, 13th Australian Broking Awards, The Star Sydney, 11 Aug 2023 — **and an eighth placement nobody knew about**: Karlie, finalist, Finance Broker of the Year 2023 | [awards](../05-proof-and-evidence/awards.md) |
+| **Who is the aggregator?** | **Verified.** Mortgage Specialists Pty Ltd, ACN 050 601 093, ACL 387025 approved 18 Nov 2010, registered business name **Specialist Finance Group**, Subiaco WA | [licensing-and-entity](../01-company/licensing-and-entity.md) |
+| **What is the ACN / registration date?** | **Both companies found.** The Loans Suite Group Australia Pty Ltd (ACN 667 838 146, from 9 May 2023) and Queens of Finance Pty Ltd (ACN 676 457 337, from 10 Apr 2024) | [licensing-and-entity](../01-company/licensing-and-entity.md) |
+| **Is the SMSF restriction still pending?** | **No — in force since 10 Aug 2026.** And critically: **refinancing existing residential LRBAs is still permitted**, as is commercial | [regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md) |
+| **Are the scheme figures current?** | **Three of four were stale.** 5% Deposit Scheme expanded 1 Oct 2025 (uncapped, no income caps, higher price caps). Help to Buy open since 5 Dec 2025. Payday Super is **7 business days**, not calendar. FHSSS caps confirmed unchanged | [regulatory-changes-2026](../06-competitors-and-market/regulatory-changes-2026.md) |
+| **Is the APRA buffer still 3%?** | **Yes.** Confirmed 23 Jul 2025, maintained through 2026 | [statistics-and-sources](../05-proof-and-evidence/statistics-and-sources.md) |
+| **Local market data** | Redcliffe ~$1.0M (+21–23%), Rothwell ~$1.03M, Penrith ~$880k–$1.1M. Ranges, not points | [market-context](../06-competitors-and-market/market-context.md) |
+| **The Loan Market competitor** | **Read directly.** And it overturned an assumption — see below | [competitor-loan-market-aqua](../06-competitors-and-market/competitor-loan-market-aqua.md) |
+
+### The three findings that changed the strategy
+
+**1 · Panel size is not a local differentiator.** Loan Market Aqua, on the same Moreton Bay
+footprint, claims **100+ lenders** against our 60+, and leads with it. The first build treated
+60+ as an advantage. It beats Aussie (25+) and Borro (30+); it loses locally. **Lead with the
+range of finance types and with independence instead.**
+
+**2 · There are two companies, and the privacy policy may name the wrong one.**
+The Loans Suite Group Australia Pty Ltd holds the *"The Loans Suite"* business name, is
+GST-registered, and is the entity The Adviser recorded as the 2023 award winner. Queens of
+Finance Pty Ltd — the entity named in the published privacy policy as the credit representative
+— holds *"The Property Suite"* and is **not** GST-registered. Both can be legitimate at once.
+**Until Karlie confirms, name no company in any disclosure block.** The footer *numbers* remain
+safe.
+
+**3 · The brand is older than both companies.** A Word of Mouth review dated November 2019 shows
+The Loans Suite trading at a Penrith address four years before the earliest current company was
+registered. **There is still no publishable founding year.**
+
+---
+
+## Part 2 — the top three, unchanged
 
 ### 1 · Record and transcribe ten discovery calls
 
-**What it fixes:** every one of the six ICP files, `buyer-psychology`, `objections`,
-`objection-turns` and `sales-scripts` is `inferred` — reasoned from the client's own
-marketing copy rather than from a prospect's mouth. That is the single largest quality
-ceiling on this database.
+**Still the largest quality ceiling on this database.** Every ICP file, `buyer-psychology`,
+`objections`, `objection-turns` and `sales-scripts` remains `inferred` — reasoned from the
+client's own marketing copy rather than from a prospect's mouth.
 
-**Why it matters:** the business's own testimonials already prove the point. Customers say
-*fast, simple, explained, supported*. They never say *strategy, structure, solutions,
-architect*. The brand's vocabulary is seller language; the customer vocabulary is different,
-and right now we only have five sentences of it.
+The six testimonials prove the problem. Customers say *fast, simple, explained, supported*. The
+brand says *strategy, structure, architects*. We have six sentences of customer language and
+tens of thousands of words of seller language.
 
-**What closes it:** ten recorded discovery calls, transcribed. One pass would upgrade nine
-files from `inferred` to `verified`.
+**One transcription pass upgrades nine files.** Effort: low — the calls already happen.
 
-**Effort:** low. The calls are already happening.
+### 2 · Export the Google reviews
 
----
+**Now the single most visible competitive weakness.** Borro publishes **215+ Google reviews**;
+The Loans Suite publishes six testimonials.
 
-### 2 · Get written permission on the five testimonials — starting with Samantha G
+**Automated retrieval is blocked** — Google serves a bot check to any automated request, so this
+has to be exported by someone signed in to the Business Profile. A search snapshot on 27 Aug
+2026 surfaced further review text naming *"Karlie, Jess, Lisa and Carms"* and *"Karlie and
+Jess"*, so more reviews demonstrably exist. Neither was readable at source, so neither is usable.
 
-**What it fixes:** [testimonials](../05-proof-and-evidence/testimonials.md) is `status: review`.
-Five testimonials with unknown permission status cannot be used in paid advertising, which
-blocks the strongest proof asset from the channel that needs it most.
+Pair the export with a review request at **Pipeline 3 → `Settled`** — the peak-emotion moment.
+See [email-sequences](../08-channels-and-playbooks/email-sequences.md).
 
-**Samantha G's is the one that matters:**
-> After the bank cancelled our unconditional approval, Karlie worked overnight and over a few
-> days to save us from losing our new house and deposit.
+### 3 · Resolve the entity question, then the contradictions
 
-That is the only piece of evidence the business owns that demonstrates something a comparison
-site and a bank branch **structurally cannot do.** With permission it becomes a case study, a
-video, an ad, and the anchor of the "why not just go to the bank" argument.
+**New top-three item.** Which entity holds credit representative 477350? It determines what
+belongs in the footer of every page we build.
 
-**Also:** export every existing Google and Facebook review. Free, immediate, and it would
-multiply available proof several times over. The closest competitor publishes **215+ Google
-reviews** against The Loans Suite's five testimonials — the most visible competitive gap in
-the business.
+Then the four site contradictions from the first build, three of which are unchanged:
 
-**Effort:** low. A phone call and an export.
-
----
-
-### 3 · Resolve the four factual contradictions on the live site
-
-Four facts currently cannot be used at all because the site disagrees with itself:
-
-| Contradiction | Where | Resolution needed |
-|---|---|---|
-| **Karlie's experience: "over 20 years" vs "over 30 years"** | Her bio vs Kaiden's bio | Karlie confirms, and the site is corrected |
-| **Mortgage stress threshold: 35% vs 30%** | Two live calculators | Consolidate to one calculator |
-| **Brand name: "The Loans Suite" vs "The Loan Suite"** | `/calculators/mortgage-stress/` uses the singular twice | Fix the page |
-| **Broker market share: 69.6% (2023)** presented as current | A live blog headline | Update to 81.0% or date it prominently |
-
-**Effort:** low. High return — an experience figure is a genuine credibility asset and it is
-currently unusable.
+| Contradiction | Status |
+|---|---|
+| Karlie's experience — "over 20 years" vs "over 30 years" | **Open.** No experience figure is publishable |
+| Mortgage stress threshold — 35% vs 30% on two live calculators | **Open.** Use 35% |
+| "The Loan Suite" singular on `/calculators/mortgage-stress/` | **Open** |
+| 2023 blog headlining "70% of home buyers" | **Open.** Now 81.0% |
 
 ---
 
-## Ranked next
+## Part 3 — content and correction backlog, ranked
 
-### 4 · Confirm the sub-broker commercial terms
+### 4 · Fix the three stale scheme pages
 
-`/join-us/` recruits brokers but publishes **no commission split, no answer on leads, no
-costs, and no aggregator arrangement.** Those are the first four questions any experienced
-broker asks. **A recruitment campaign cannot run credibly until they are answered** — it would
-waste every click it earned. See [sub-broker-offer](../02-offer-and-lending/sub-broker-offer.md).
+The most fixable content on the website, and all three are now researched and ready to write:
 
-### 5 · Capture the GHL system IDs
+- **Help to Buy** — the page says *"Limited information available on this one!"* The scheme has
+  been open since December 2025, has 10,000 places, raised income caps on 1 July 2026, and has
+  **exactly one broker-accessible lender**. That last fact is a positioning opportunity.
+- **5% Deposit Scheme** — generic copy predating uncapped places, removed income caps and higher
+  price caps. And the local angle: **Redcliffe's median has converged on the $1M QLD cap.**
+- **SMSF** — written as though the ban is forthcoming. It is in force, and **refinancing is
+  still permitted**, which is an addressable market nobody local is speaking to.
 
-No location ID, workflow ID, calendar ID or form ID is recorded anywhere. Without them, no
-automation work can be specified precisely — only described. See
-[systems-and-ids](../01-company/systems-and-ids.md).
+### 5 · Fix the two factual errors in published content
 
-### 6 · Consolidate booking onto one system
+- The blog says Payday Super requires payment within *"seven calendar days"*. It is **seven
+  business days**, and the change is in force, not upcoming.
+- The 2023 market-share blog headline reads as current.
 
-Three brokers across Calendly (two separate accounts) and TidyCal. **No round-robin is
-possible**, no load balancing, and any paid campaign driving to "book a call" is guessing
-which calendar to use. One public Calendly slug contains a live typo (`loanstratergy`).
-**This is a prerequisite for paid acquisition**, not a nice-to-have.
+### 6 · Confirm the sub-broker commercial terms
+
+`/join-us/` recruits brokers but publishes no split, no answer on leads, no costs, no aggregator
+arrangement. **A recruitment campaign cannot run credibly until those are answered.**
 
 ### 7 · Fix the compliance defects on live pages
 
-Three live pages carry language that breaches the guardrails:
+- Equity calculator promises *"Unlock our best home loan rates"* and *"Get free advice"*
+- `/personal-loans/` states *"Personal loans can be approved"*
+- The **privacy policy contains copy-paste artifacts from "Domain Loan Finder"** with blank
+  contact fields for access, correction and complaints — an APP 1 exposure
 
-- The equity calculator promises *"Unlock our best home loan rates"* and *"Get free advice
-  from a lending specialist"* — we have neither rates nor advice to give
-- The personal loans page states *"Personal loans can be approved"*
-- The **privacy policy contains copy-paste artifacts from another business** — it refers to
-  *"Domain Loan Finder"* and *"domainloanfinder.com.au"*, and its contact fields for access,
-  correction and complaints are **blank**. That is a genuine APP 1 exposure
+### 8 · Consolidate booking, and the two Facebook pages
 
-**Client action, not a marketing task.** See
-[privacy-and-data](../07-compliance-and-guardrails/privacy-and-data.md).
+Three brokers across Calendly (two accounts) and TidyCal — **no round-robin, so paid acquisition
+cannot route.** One public slug carries a live typo (`loanstratergy`).
 
-### 8 · Confirm the aggregator and the marketing approval chain
+And **two Facebook pages** — `theloanssuitesydney` (linked from the site) and
+`theloanssuiteaustralia` (found 2026-08-27). Followers, reviews and history are split across
+both.
 
-ACL 387025 traces to **Mortgage Specialists Pty Ltd t/a Specialist Finance Group**, corroborated
-by the three SFG badges on the site — but this is `inferred`, not confirmed by the client. Most
-aggregators also require sign-off on outward-facing use of the licensee's details, which would
-change [approval-rules](../07-compliance-and-guardrails/approval-rules.md) from `inferred` to
-`verified`.
+### 9 · Claim the stale directory listings
 
-### 9 · Attribute the individual awards
+An **unclaimed Localsearch listing** shows The Loans Suite in **Wollongong NSW** with zero
+reviews. A 2019 citation carries a **former Penrith address** (Suite 2, 20-24 Castlereagh St).
+Inconsistent NAP data across directories is a standard local-SEO drag.
 
-*Residential Broker of the Year* and *Loan Administrator of the Year* are **individual**
-categories. The sources do not record who was nominated. Right now they can only be stated as
-business-level shortlistings, which is weaker than the truth probably is.
+### 10 · Capture the GHL system IDs
 
-### 10 · Write the first case study
-
-There are **zero**. Not one written client story. A single de-identified, structural,
-figure-free case study — challenge, obstacle, what got solved — would serve the business-owner
-and complex-borrower audiences, where the proof gap is widest. Requires client permission and
-Karlie's sign-off on what can be said.
+No location, workflow, calendar or form ID is recorded. Without them, automation can only be
+described, not specified.
 
 ### 11 · Build the missing pages
 
-Things the business sells or promotes with nowhere to land:
-
-- **A refinance page.** The highest commercial-intent term in the category, with no page.
-  A worked brief is in
+- **A refinance page** — highest commercial intent in the category, no page. Brief ready in
   [website-and-page-copy](../08-channels-and-playbooks/website-and-page-copy.md)
-- **Local pages.** The closest competitor runs suburb-level pages for Redcliffe, Clontarf,
-  Kippa-Ring and Margate. The Loans Suite has none, despite two physical offices
-- **A Loan Health Check page.** A named offer with no page, no promise and no funnel
+- **Local pages** — Borro runs suburb pages across Redcliffe, Clontarf, Kippa-Ring and Margate.
+  The Loans Suite has none despite two offices
+- **A Loan Health Check page** — a named offer with no page and no promise
 - **The two Suite hub pages** are empty shells
 
-### 12 · Re-verify the ageing facts
+### 12 · Write the first case study
 
-| Fact | Status |
-|---|---|
-| SMSF residential restriction "from 10 August 2026" | **The date has passed.** Check current state before any SMSF asset |
-| Stamp duty rates | As at 1 July 2025 |
-| First Home Super Saver caps | Check the ATO |
-| Payday Super detail | Legislative — confirm before campaigning |
-| Redcliffe median house price | `inferred` from secondary reporting. Verify or cut |
+Still zero. A single de-identified, structural, figure-free story would serve the business-owner
+and complex-borrower audiences, where the proof gap is widest.
 
-### 13 · Re-do the Loan Market Aqua teardown manually
+### 13 · Add attribution capture to the contact form
 
-The competitor's site blocked automated access, so
-[competitor-loan-market-aqua](../06-competitors-and-market/competitor-loan-market-aqua.md)
-is built from search summaries. It is the thinnest file in folder 06 and is marked `draft`.
+Loan Market's form asks *"How did you find us?"*. Ours does not. One field, and it tells you
+which channel is actually working.
 
-### 14 · Decide on the generational story
+### 14 · Enter the 2026 awards
 
-Karlie since 2016, Kaiden through Cert IV at seventeen and now broking, Michelle studying hers
-now. A family business that develops its own people is a real differentiator against franchise
-networks — and it currently appears only on one bio. It is not a messaging pillar yet because
-it needs Karlie's decision on how public the family story should be.
+**No 2025 placement exists** — verified against The Adviser's records. The most recent is 2024.
+If awards matter to positioning, entering is an action, not a marketing task.
+
+### 15 · Decide on the generational story
+
+Karlie since 2016, Kaiden through Cert IV at seventeen, Michelle studying hers now. A real
+differentiator against franchise networks, mentioned only on one bio. Needs Karlie's decision on
+how public the family story should be.
 
 ---
 
-## The interview agenda — what to ask Karlie
+## Part 4 — what only Karlie can answer
 
-The fastest route through most of the above is one focused conversation. In priority order:
+Research has taken this database as far as public sources allow. Everything below needs her.
 
-**Facts to resolve**
-1. Twenty years or thirty? *(unblocks an experience claim)*
-2. Who was nominated for Residential Broker of the Year and Loan Administrator of the Year?
-3. Is Specialist Finance Group the aggregator, and do they need to approve marketing?
-4. Who is Reema? *(named as a packaging desk in Pipeline 2, not among the six published team)*
-5. What year did the business actually start?
+**Facts**
+1. Which entity holds credit representative 477350 — The Loans Suite Group Australia, or Queens
+   of Finance?
+2. Is "The Property Suite" a separate venture or a legacy registration?
+3. Twenty years or thirty?
+4. Who is **Reema**? Named as a packaging desk in Pipeline 2, not among the six published team.
+5. Who are **Lisa**, **Carms** and **Emma**, named in customer reviews but not on the team page?
+6. What year did the business actually start trading? *(It was operating in 2019.)*
+7. What is SFG's total lender panel size?
 
 **Commercial terms**
-6. What is the sub-broker commission split, and are leads provided?
-7. Are there referral fee arrangements with any of the twelve partners?
+8. What is the sub-broker commission split, and are leads provided?
+9. Are there referral fee arrangements with any of the twelve partners?
+10. Does SFG require sign-off on outward-facing marketing?
 
 **The material only she has**
-8. Who do you turn away, and why? *(the [disqualifiers](../03-audience-and-icp/disqualifiers.md)
-   file is `inferred` — and what a business refuses is usually the sharpest thing about it)*
-9. What is the objection that kills most deals?
-10. What do competitors say that is simply wrong?
-11. What does a great client look like twelve months after settlement?
-12. What will you never say in public?
+11. Who do you turn away, and why? *([disqualifiers](../03-audience-and-icp/disqualifiers.md) is
+    `inferred` — and what a business refuses is usually the sharpest thing about it.)*
+12. What is the objection that kills most deals?
+13. What do competitors say that is simply wrong?
+14. What does a great client look like twelve months after settlement?
+15. What will you never say in public?
 
 **Decisions**
-13. How public do you want the family story?
-14. Can we have permission on the five testimonials, starting with Samantha G?
-15. Are you comfortable publishing that every file passes a principal quality check before
-    lodgement? *(a real, unclaimed proof point from Pipeline 2)*
+16. How public should the family story be?
+17. Can we publish that every file passes a principal quality check before lodgement?
+    *(A real, unclaimed proof point from Pipeline 2 — `Karlie Mentor Check`.)*
 
 ---
 
 ## What is deliberately not on this list
 
-**More content.** The business has 171 blog posts, seven calculators and a twelve-partner
-directory. It does not have a content problem — it has a **proof, routing and local-SEO
-problem.** Adding more articles before fixing the review gap, the booking routing and the
-missing refinance page would be building on sand.
+**More content.** 171 blog posts, seven calculators, a twelve-partner directory. This business
+does not have a content problem. It has a **proof, routing, entity-clarity and local-SEO
+problem** — and three stale scheme pages that are wrong today. Fix those before writing
+anything new.

@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: verified
 source: theloanssuite.com.au (Aug 2026) — each fact traces to its own file, linked below
-as_of: 2026-08-26
+as_of: 2026-08-27
 owner: Tumai (Team OS)
 tags: [quick-facts, reference, cheat-sheet]
 ---
@@ -19,13 +19,14 @@ The facts needed most often, and — just as importantly — **the ones that don
 | | |
 |---|---|
 | Trading name | **The Loans Suite** / The Loans Suite Australia *(note the double "s")* |
-| Legal entity | Queens of Finance Pty Ltd |
-| ABN | 38 676 457 337 |
+| Operating entity | **The Loans Suite Group Australia Pty Ltd** — ABN 41 667 838 146, ACN 667 838 146 (holds the "The Loans Suite" business name; won the 2023 award) |
+| Named in the privacy policy | Queens of Finance Pty Ltd — ABN 38 676 457 337, ACN 676 457 337 |
+| **Which entity holds the credit rep authorisation** | **UNRESOLVED — ask Karlie. Do not name a company in a disclosure block. The numbers below are safe** |
 | Credit Representative Number | **477350** |
-| Australian Credit Licence | **387025** |
+| Australian Credit Licence | **387025** — held by Mortgage Specialists Pty Ltd t/a **Specialist Finance Group** (ACN 050 601 093, Subiaco WA) |
 | Website | theloanssuite.com.au |
 | Instagram | @the.loans.suite |
-| Facebook | facebook.com/theloanssuitesydney |
+| Facebook | facebook.com/theloanssuitesydney — **and a second page**, facebook.com/theloanssuiteaustralia |
 | Brand line | **"Your financial architects."** |
 
 → [licensing-and-entity](../01-company/licensing-and-entity.md)
@@ -72,9 +73,10 @@ The facts needed most often, and — just as importantly — **the ones that don
 ## Awards — exact wording only
 
 - **Winner, Independent Office of the Year — The Adviser Australian Broking Awards 2023**
+- Finalist, Finance Broker of the Year — **Karlie Scharfenberg**, 2023 *(not on the website)*
 - Finalist, Independent Office of the Year — The Adviser Australian Broking Awards 2024
-- Finalist, Residential Broker of the Year — The Adviser Australian Broking Awards 2024
-- Finalist, Loan Administrator of the Year — The Adviser Australian Broking Awards 2024
+- Finalist, Residential Broker of the Year — **Karlie Scharfenberg**, 2024
+- Finalist, Loan Administrator of the Year — **Jessica Didovich-Lasalo**, 2024
 - Finalist, QLD Broker of the Year — Specialist Finance Group 2024
 - Finalist, QLD Brokerage of the Year — Specialist Finance Group 2024
 - Finalist, Broker of the Year – Personal Insurance — Specialist Finance Group 2024
@@ -120,21 +122,34 @@ NPS · Google review count · turnaround times for any stage · commission rates
 sub-broker commission split · Karlie's years of experience** *(the site says both "over 20"
 and "over 30" — unusable until resolved)*
 
-**There are no case studies.** Five testimonials, permission status unknown.
+**No founding year.** Both current companies were registered in 2023 and 2024, yet the brand was
+trading in 2019. No register supports a business-age claim.
+
+**There are no case studies.** Six testimonials — all cleared for every channel including paid.
 
 If asked for any of these, the answer is **"that isn't in the database."**
 
 → [what-we-cannot-claim](../05-proof-and-evidence/what-we-cannot-claim.md)
 
-## Facts that are ageing — re-verify before use
+## Regulatory state — verified 2026-08-27
 
-| Fact | Why |
+| Fact | Current position |
 |---|---|
-| SMSF residential restriction "from 10 August 2026" | **That date has passed.** Check current status |
-| Stamp duty calculator rates | Current as at 1 July 2025 |
-| First Home Super Saver caps ($15k / $50k) | Scheme caps change — check the ATO |
-| Payday Super detail | Legislative; confirm before campaigning |
-| The site's "70% of home buyers" blog | Now 81.0%. Historical, not current |
+| **SMSF residential borrowing** | **BANNED since 10 Aug 2026.** Existing loans grandfathered; **refinancing still permitted**; commercial (business real property) still permitted |
+| **5% Deposit Scheme** | Since 1 Oct 2025: **no place limits, no income caps.** Price caps **QLD $1.0M**, **NSW $1.5M** (capital and regional centres) |
+| **Help to Buy** | **Open since 5 Dec 2025.** 10,000 places 2026–27. Income caps $110k / $180k from 1 Jul 2026. **Only Bank Australia is broker-accessible** |
+| **Payday Super** | **In force 1 Jul 2026.** **7 BUSINESS days** (the site's blog wrongly says calendar). Qualifying earnings, 12% |
+| **APRA buffer** | **3%**, unchanged |
+| **FHSSS** | $15k/year, $50k total — unchanged, site is correct |
+| **QLD stamp duty** | New homes: full concession, no price cap. Established: full under $700k, sliding to $800k. FHOG now **$15,000** |
+| **NSW stamp duty** | Full exemption ≤ $800k; partial $800,001–$1M |
+
+**Still ageing:** the stamp duty calculator states rates as at 1 July 2025 and predates the
+1 Aug 2026 QLD residency requirement and the FHOG reversion.
+
+**Site content that is now wrong:** the SMSF pages (ban framed as forthcoming), the Help to Buy
+copy ("limited information available"), the 5% Deposit Scheme copy (predates the expansion), the
+Payday Super blog ("seven calendar days"), and the 2023 market-share blog headline.
 
 ## Numbers to have on hand
 

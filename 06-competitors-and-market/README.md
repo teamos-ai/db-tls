@@ -35,24 +35,32 @@ capability and independence.
 
 ## Comparison matrix
 
-| | The Loans Suite | Aussie | Borro | Loan Market (local) | Bank direct | Lendi / portals |
+| | The Loans Suite | Aussie | Borro | Loan Market Aqua (local) | Bank direct | Lendi / portals |
 |---|---|---|---|---|---|---|
-| Published panel | **60+** | 25+ | 30+ | Not published | 1 | Varies |
+| Published panel | 60+ | 25+ | 30+ | **100+** | 1 | Varies |
 | Cost to client | Nil, lender-paid | Nil, lender-paid | Nil | Nil | Nil | Nil |
 | Commercial finance | **Yes** | Limited | Limited | Varies | Yes | No |
 | Asset & equipment | **Yes** | No | Varies | Varies | Yes | No |
 | SMSF | **Yes** | Limited | Varies | Varies | Limited | No |
 | Business lending | **Yes** | No | Varies | Varies | Yes | No |
-| Independent | **Yes** | Franchise | Independent | Franchise | n/a | Corporate |
+| Independent | **Yes — national award for it** | Franchise | Independent | Franchise | n/a | Corporate |
 | Human advocacy | **Yes** | Yes | Yes | Yes | Limited | Minimal |
 | Speed to a number | Calculator or call | Instant tools | 30-min assessment | Varies | Slow | **Instant** |
-| Awards | 1 win, 6 shortlistings | Various | WOMO service awards | Various | n/a | n/a |
+| Awards | **1 national win, 7 shortlistings** | Various | WOMO service awards | Various | n/a | n/a |
 
-**Where The Loans Suite genuinely leads:** panel breadth and product range. It is the only
-column that covers residential, commercial, business, asset and SMSF under one principal.
+**Where The Loans Suite genuinely leads: product range and independence.** It is the only
+column covering residential, commercial, business, asset and SMSF under one principal — and the
+only one holding a national **Independent** Office of the Year win, a category the two franchise
+columns are structurally ineligible for.
 
-**Where it genuinely trails:** speed to a first number, and volume of published social proof.
-Borro publishes 215+ Google reviews; The Loans Suite publishes five testimonials.
+**Where it genuinely trails — three things, corrected 2026-08-27:**
+
+1. **Panel size, locally.** Loan Market Aqua claims 100+ against our 60+, on the same Moreton
+   Bay footprint, and leads with it. **Panel size is no longer a claim to lead on.**
+2. **Published social proof.** Borro publishes 215+ Google reviews; The Loans Suite publishes
+   six testimonials.
+3. **Speed to a first number.** Borro offers a "Free Loan Assessment in 30 Minutes". We make no
+   equivalent promise.
 
 ## The two claims competitors make that are worth answering
 
@@ -81,9 +89,10 @@ and it is not differentiated. The Loans Suite's version has to be more specific 
 
 - [competitor-aussie](competitor-aussie.md) — the national franchise benchmark
 - [competitor-borro](competitor-borro.md) — the closest local digital-native rival
-- [competitor-loan-market-aqua](competitor-loan-market-aqua.md) — the local franchise
+- [competitor-loan-market-aqua](competitor-loan-market-aqua.md) — **the local franchise, and the one that beats us on panel size**
 - [competitor-lendi-and-portals](competitor-lendi-and-portals.md) — the digital threat
 - [competitor-bank-direct](competitor-bank-direct.md) — the 19% that still doesn't use a broker
 - [market-context](market-context.md) · [glossary](glossary.md)
+- [regulatory-changes-2026](regulatory-changes-2026.md) — what changed this year and what the site still says
 
 **Re-run this research annually, or when a competitor visibly relaunches.**
