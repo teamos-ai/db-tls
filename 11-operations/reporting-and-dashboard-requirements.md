@@ -125,6 +125,16 @@ Derived from Michelle's tracker and Karlie's settlement workbooks:
 show why — CRN typos, swapped columns, spelling variants and embedded subtotal rows. See
 [settlement-data-baseline](settlement-data-baseline.md).
 
+**In OS today (API, 11 Sep 2026):**
+- **Already exist:** amount (`Total Loan Amount`), settlement date (`Date Settled`), purpose (`Loan
+  Purpose`, which wrongly includes "Investment"), lender (`Split 1 Lender`, **free text**) and
+  reference (`Application ID`).
+- **Don't exist:** Broker CRN, New / Existing client, and a loan-type category.
+- **Empty everywhere:** `Date Settled` is blank on all 416 opportunities, and Karlie owns 88% of them.
+
+Nothing on this dashboard is buildable until those gaps are fixed — see
+[ghl-data-audit](ghl-data-audit.md).
+
 ## 7 · Unresolved
 
 1. **Commissions in the CRM or not?** Out of scope per 18 Aug; the KPI board has commission splits

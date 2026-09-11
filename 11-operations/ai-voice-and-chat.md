@@ -94,6 +94,12 @@ improvisation on a regulated product is the failure mode this whole database exi
 - **"Enable AI Agent"** and **"Enable Live Chat"** remain open onboarding tasks.
 - A website AI chat widget trained on 260 pages and 30 FAQs was built in the **2025** engagement.
   Whether it's deployed is unverified.
+- **In OS (API, 11 Sep 2026):**
+  - **4 knowledge bases.** "The Loans Suite" (updated 7 Sep 2026) and "Updated TLS KB" (28 Aug) are
+    the current ones.
+  - **A "Test The Loan Suite Custom Chat Widget" page** from Sep 2025.
+  - **No AI workflow is published.** The A.I. Voice and A.I. Chat workflows are untouched template
+    drafts.
 - **SFG's integration checklist forbids AI agents in the SFGconnect integration path.** Any AI
   agent must stay entirely separate from the Salestrekker bridge. See
   [sfg-salestrekker-integration](sfg-salestrekker-integration.md).

@@ -4,7 +4,7 @@ title: Systems, platforms and IDs
 type: company
 status: approved
 confidence: verified
-source: theloanssuite.com.au raw HTML — link and script extraction across 71 pages (Aug 2026)
+source: theloanssuite.com.au raw HTML — link and script extraction across 71 pages (Aug 2026); internal stack from meetings and email (Sep 2026); OS sub-account IDs from the GoHighLevel API (read-only, 11 Sep 2026)
 as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [systems, ids, stack, integrations, booking, crm]
@@ -60,9 +60,9 @@ Two distinct MovingHub widget IDs are embedded — one for "Compare Energy Plans
 None of this is visible in the website markup — it comes from Karlie's production systems.
 Full detail in [11-operations/pipelines](../11-operations/pipelines.md).
 
-**No GHL location ID, calendar ID, form ID or workflow ID is recorded anywhere in the
-sources.** Capturing them is a roadmap item — without them, no automation work can be
-specified precisely.
+**Every GHL ID — location, pipelines, stages, workflows, forms, surveys, calendars, users,
+custom objects and field keys — was read from the live sub-account on 11 Sep 2026** and is in
+[ghl-account-map](../11-operations/ghl-account-map.md).
 
 ## Social
 
@@ -107,8 +107,13 @@ text-back. Forwarding the OS number to the 1300 number does not currently work.
 **OS subdomains (verified 8 Sep 2026):** `os.tlsga.com.au` (mailbox) · `discover.theloanssuite.com.au`
 (pages) · `app.theloanssuite.com.au` (client portal) · `client.theloanssuite.com.au` (branded).
 
-**Not yet captured:** the GHL location ID, pipeline and stage IDs, workflow IDs, calendar IDs, form
-IDs, custom field keys. They need API access to the sub-account.
+**OS sub-account:** "The Loans Suite":
+- **Location:** `vAX1ry0bjuYiAzEYFS9X`
+- **Company:** `SWxcsGDWoMO4M9RWjngV`
+- **Timezone:** Australia/Brisbane
+- **OS number:** **+61 485 088 933**, forwarding to the Penrith landline
+
+Every other ID is in [ghl-account-map](../11-operations/ghl-account-map.md).
 
 ## Related
 

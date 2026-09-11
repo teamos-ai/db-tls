@@ -4,7 +4,7 @@ title: The team — six people, published titles and verbatim bios
 type: company
 status: approved
 confidence: verified
-source: theloanssuite.com.au/about and /team/* (six pages, scraped Aug 2026); internal roles, CRNs and wider team from Granola meetings Aug–Sep 2026, tlsga.com.au email signatures, Karlie's settlement workbooks (4 Sep 2026) and The Adviser awards records
+source: theloanssuite.com.au/about and /team/* (six pages, scraped Aug 2026); internal roles, CRNs and wider team from Granola meetings Aug–Sep 2026, tlsga.com.au email signatures, Karlie's settlement workbooks (4 Sep 2026), The Adviser awards records, and OS user records via the GoHighLevel API (11 Sep 2026)
 as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [team, people, bios, karlie, voice-sample]
@@ -121,11 +121,19 @@ confirm and then change on the site first, not a licence to use it in campaigns.
 | **Michelle Cairncross** | Operations Manager — lodgement through settlement, settlement tracker, post-settlement calls | — | Sydney. **Works Mon–Thu, 9am–5pm.** Joined about Nov 2025. Ex-Suncorp and retail CRM background. Primary OS user. Uses Claude |
 | **Emily Baulch** | Social media, content scheduling, broker support | — | Brisbane. Schedules Reels natively in Instagram |
 | **Phoebe Guy** | Audits and 30-day calls | — | Part-time |
-| **Reema** | Credit packaging | — | Signs the team welcome email and has her own Salestrekker stage ("Reema Files"). Meeting notes describe "a Nepal-based VA supporting credit packaging" — **that Reema is this VA is `inferred`** |
+| **Reema Maharjan** | Credit packaging | — | Surname verified from her OS user record (11 Sep 2026). Signs the team welcome email; has her own Salestrekker stage ("Reema Files") and an OS booking calendar. Meeting notes describe "a Nepal-based VA supporting credit packaging" — **that Reema is this VA is `inferred`** |
 
 The **Credit Rep No. column matters for automation.** Each broker has their own number, and the
 credit guide merges the deal owner's. The website footer shows only 477350 (Karlie's). See
 [licensing-and-entity](licensing-and-entity.md).
+
+**OS access (API, 11 Sep 2026):**
+- All seven have logins.
+- Karlie, Kaiden, Jess, Michelle and Emily are **admins**; Phoebe and Reema are restricted **users**.
+- Six have an OS booking calendar. Phoebe doesn't.
+- Dylan Kemp also holds an admin login.
+
+User IDs are in [ghl-account-map](../11-operations/ghl-account-map.md).
 
 ### People around the business
 

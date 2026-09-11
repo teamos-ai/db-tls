@@ -70,8 +70,9 @@ ahead to the next stage until the checklist is completed."* See
 9. 30 Day Calls
 10. HOLD/NPW (not proceeded with)
 
-Settlement, audit and the first retention touch all live in one pipeline here. In OS they're split
-across Approvals, Settlements and Post-Settlement.
+Settlement, audit and the first retention touch all live in one pipeline here. The live OS build
+keeps approval and settlement together ("2 | Approval - Settlements") and moves the 30-day call
+into a separate Post Settlement pipeline — see [ghl-account-map](ghl-account-map.md).
 
 ## 4 · Pre-Approval
 
@@ -81,8 +82,8 @@ across Approvals, Settlements and Post-Settlement.
 4. 75 Days
 5. Expired
 
-A time-based lifecycle for pre-approved buyers still searching. **No equivalent has been
-confirmed in the OS build** — flagged as an open design question.
+A time-based lifecycle for pre-approved buyers still searching. **No equivalent exists in the OS
+build** (API read, 11 Sep 2026) — an open design question.
 
 ## 6 · Construction Loans
 

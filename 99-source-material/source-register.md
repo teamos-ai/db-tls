@@ -87,7 +87,7 @@ Every external figure is recorded with its source in
 The gap list that shaped the [enrichment roadmap](../00-start-here/ENRICHMENT-ROADMAP.md):
 
 - **No recorded client calls or transcripts.** Every ICP file is `inferred` as a result
-- **No CRM export** — no GHL location, workflow, calendar or form IDs
+- ~~No CRM export~~ — **closed 11 Sep 2026** by the read-only GHL API pass (IDs and aggregates only)
 - **No Google or Facebook review export**
 - **No client interview.** Nothing in this database came from Karlie's mouth directly
 - **No commercial terms** — no commission rates, no sub-broker split, no partner arrangements
@@ -109,9 +109,16 @@ The gap list that shaped the [enrichment roadmap](../00-start-here/ENRICHMENT-RO
 | `Dashboard Results.pdf` — Monday.com export, 4 Sep 2026 | The dashboard layout Karlie wants replicated, and its errors | No — described in the reporting requirements |
 | **Asana** — "The Loan Suite – Karlie Scharfenberg – Finance OS CRM Onboarding" | Build progress (52/88), Salestrekker stage transcription, form status, phone routing | No |
 | **ASIC company extracts** for TLSGA and Queens of Finance (3 Sep 2026, via Asana) | Former name, registered office localities, registration dates | No — summarised in `01-company/licensing-and-entity.md` |
+| **GoHighLevel API** — sub-account "The Loans Suite", location `vAX1ry0bjuYiAzEYFS9X`, read-only Private Integration Token (11 Sep 2026) | Location, 15 users, 7 pipelines and 48 stages, 416 opportunities and 1,882 contacts (aggregated), 21 workflows, 25 forms, 4 surveys, 18 calendars with settings, 402 custom fields, 189 tags, 79 custom values, 3 custom objects, 4 knowledge bases, 13 funnels, phone number | **No** — record-level exports contain client PII. IDs and aggregates only, in `11-operations/ghl-account-map.md` and `ghl-data-audit.md`. The token is not stored in the repository |
 
-**Unavailable:** the **GoHighLevel sub-account API** (no token located); Gmail connectors for the
-other mailboxes (expired authorisation); Google reviews (bot-blocked).
+**Unavailable:** Gmail connectors for the other mailboxes (expired authorisation); Google reviews
+(bot-blocked). **The GHL API does not expose** workflow triggers or steps, domain mappings, the
+missed-call text-back setting, social accounts or custom menus.
+
+**Correction triggered by the API read:** the meeting-based `current-build-state.md` got the pipeline
+structure wrong in several places — approvals and settlements are one pipeline, there is no On Hold
+stage, the Clients template holds 282 tiles, and the stage automations are drafts. The file was
+rewritten from the API.
 
 **Correction triggered:** the `ghl-operational-database-RAW.md` §2 pipelines were previously treated
 as verified. Salestrekker screenshots show that document **embellished stage names and described

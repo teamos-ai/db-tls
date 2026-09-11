@@ -4,7 +4,7 @@ title: Current build state — what exists in the OS sub-account
 type: system
 status: approved
 confidence: verified
-source: Granola meetings 10 Aug, 18 Aug, 26 Aug, 4 Sep and 9 Sep 2026; tlsga.com.au email threads Aug–Sep 2026; Asana project "The Loan Suite - Karlie Scharfenberg - Finance OS CRM Onboarding" (read 2026-09-11). The GHL sub-account itself was NOT read — no access token was available.
+source: GoHighLevel API, read-only, location vAX1ry0bjuYiAzEYFS9X (11 Sep 2026) — pipelines, opportunities, workflows, forms, surveys, calendars, users, fields, tags, objects, phone, funnels, knowledge bases. History, domains, rollout and anything the API cannot see from Granola meetings 10 Aug – 9 Sep 2026, tlsga.com.au email and the Asana onboarding board.
 as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [operations, os-platform, ghl, build-state, onboarding, internal]
@@ -12,171 +12,179 @@ tags: [operations, os-platform, ghl, build-state, onboarding, internal]
 
 # Current build state
 
-> **How this was reconstructed.** Everything here comes from what the team said in meetings,
-> what was sent by email, and the Asana onboarding board. **Nobody has read the live
-> sub-account through the API yet.** Treat stage names and counts as "as described on
-> 9–10 Sep 2026" and re-verify the moment GHL access exists. Items marked *(observed)* were
-> seen on screen during a recorded call.
+> **Read from the live sub-account on 11 Sep 2026.** The first version of this file was
+> reconstructed from meetings and got several things wrong — see "What the meetings got wrong".
+> Items marked *(meetings)* can't be seen through the API. IDs are in
+> [ghl-account-map](ghl-account-map.md); data quality is in [ghl-data-audit](ghl-data-audit.md).
 
-**Internal only.** Nothing in this file is marketing material.
+**Internal only.** Nothing here is marketing material.
 
 ## The platform
 
-- **OS = GoHighLevel, white-labelled** as the Team OS platform. Login `app.teamos.ai`;
-  hosted widgets on `link.teamos.ai`. TLS is a sub-account named **"The Loans Suite"**.
-- Karlie also opened a **separate, empty GoHighLevel trial account** in Aug 2026. Decision
-  (10 Aug): cancel it and recover the charge. It holds nothing.
-- Billing was to switch from annual to monthly before the next cycle (10 Aug action).
+- **OS = GoHighLevel, white-labelled.** Login `app.teamos.ai`. Sub-account **"The Loans Suite"**,
+  location `vAX1ry0bjuYiAzEYFS9X`, created **11 Aug 2025**, timezone **Australia/Brisbane**.
+- **15 users:** the 7 TLS staff, Dylan Kemp, and 7 Team OS logins. 13 are admins.
+- Karlie's separate empty GoHighLevel trial: decision 10 Aug was to cancel it *(meetings)*.
 
 ## Engagement timeline
 
 | When | What happened |
 |---|---|
-| Aug–Sep 2025 | First engagement. Pipeline stages built, contact list (~2,000 rows) merged and tagged **"TLS Loan Book"** / **"QOF Loan Book"**, AI chat widget trained on the website, intranet set up for Jess |
-| 20 Oct 2025 | Paused at Karlie's request for 4–5 months — SFG was consolidating systems at the end of December and TLS was hiring |
-| Late 2025–mid 2026 | Karlie went down a **Monday.com** path (~$8K spent, limited results) and resolved a legal dispute over her trail and client database |
-| 7 Aug 2026 | Karlie restarts: wants workflows built "the same as you have done for Maryanne" before any customer data moves |
-| 10 Aug 2026 | Planning session. Fresh onboarding project opened |
-| 18 Aug → 9 Sep 2026 | Data migration, pipelines, forms, phone, domains, calendars, automation planning |
+| Aug–Sep 2025 | First engagement. Sub-account created 11 Aug 2025; appointment reminder recipe published; chat widget test page; contacts tagged "TLS Loan Book" / "QOF Loan Book" *(those tags no longer exist)* |
+| 20 Oct 2025 | Paused at Karlie's request — SFG consolidating systems, TLS hiring |
+| Late 2025–mid 2026 | Monday.com path (~$8K, limited results); legal dispute over trail and database resolved *(meetings)* |
+| 7–10 Aug 2026 | Restart and planning session |
+| 25 Aug 2026 | **Bulk migration** — 282 Clients and 91 Post Settlement tiles created that day |
+| 18 Aug → 9 Sep 2026 | Pipelines, forms, phone (4 Sep), domains (8 Sep), calendars, automation planning |
 
-## Pipelines in OS — "locked" as at 10 Sep 2026
+## What the meetings got wrong
 
-Asana, 10 Sep: *"Pipelines have all be delivered and locked down."*
-
-| Pipeline | Status |
+| Described in meetings or Asana | Live account, 11 Sep 2026 |
 |---|---|
-| **Pre-Submission** | Live. Stage order still being finalised — see [pipeline-decisions-log](pipeline-decisions-log.md) |
-| **Approvals** | Live |
-| **Settlements** | Live |
-| **Post-Settlement** | Live. Contains duplicate tiles from migration |
-| **Construction Loans** | Live |
-| **Clients** | Pre-built template. Karlie and Michelle to confirm deletion — it duplicates post-settlement |
-| **Lead Gen** / **Qualification** | Left in place, **parked**, out of scope for now |
+| Separate Approvals and Settlements pipelines | **One pipeline — "2 \| Approval - Settlements"** |
+| Unmatched deals parked in **On Hold**; On Hold for deals being shaped | **No On Hold stage exists** in any pipeline |
+| "Clients" template to be deleted | **It holds 282 migrated tiles** — 225 in Retention & Repricing, 57 in General / Active. Deleting it loses them |
+| Lead Gen / Qualification pipelines parked | **Neither exists.** A template "Marketing Pipeline" and an empty "Partners" pipeline do |
+| Post-settlement 30-day · 90-day · 6-month · 12-month | **Three stages**, and 88 of 91 tiles sit in the first |
+| Stage automations imported — dragging a card fires them | **Both stage workflows are drafts.** 2 of 21 workflows are published |
+| Contact count 1,877 or 1,118 | **1,882** |
+| Commissions stay in Excel | **The Broker KPI's object holds 54 commission records** |
+| Calendars with online / phone / face-to-face options | Six live calendars, **none with a meeting location**, no notifications, no round-robin |
+| A "Referred by" field on opportunities | **No opportunity field of that name.** "Referred By" is on the **Broker KPI's** object (filled on 5 of 54) |
 
-The legacy Salestrekker pipelines these were modelled on are in [pipelines](pipelines.md).
+## Pipelines — live
+
+| Pipeline | Stages | Opps |
+|---|---|---|
+| **1 \| Pre-Submission⚡️** | New Lead → Credit Guide Sent → Initial Conversation → Fact Find → Document Collection → Quickli/Servicing → Deal Qualifies → Pushed to Sales Trekker | 7 open |
+| **2 \| Approval - Settlements 💰** | Submitted / MIRS → Conditional Approval → Formal Approval → Docs Issued → Settlement Booked → Settled → Audit | 23 — 16 open · 5 lost · 2 won |
+| **3 \| Post Settlement** | 30-Day Post-Settlement Check In → Annual Review / Check-Ins → Year Review / Check-Ins | 91 — 89 open · 2 won |
+| **4 \| Construction Loans** | Salestrekker's ten construction stages, copied exactly | 11 open, none valued |
+| **5 \| Clients 🫶** *(template)* | General / Active → First 3-Month Check-In → Annual Review / RBA Check → Mid-Term Refinance Opportunity → Life Event Trigger → Retention & Repricing → Referral Loop → 5-Year+ Milestone Review | 282 open |
+| **6 \| Partners 💎** *(template)* | Leads → Follow Up → New Users → Active Users → New Partners → Active Partners | 0 |
+| **Marketing Pipeline** *(template)* | New Lead → Contacted → Qualified → Proposal Sent → Negotiation → Closed | 2 |
+
+- **Pre-Submission** matches Karlie's 9 Sep read-out for stages 1–5, then adds servicing,
+  qualification and the Salestrekker hand-off. **Settled deals live in pipeline 2**, not in
+  Pre-Submission.
+- **Post Settlement's** stages 2 and 3 appear to mean the same thing.
+- *Design observation (`inferred`):* the **Clients template's** stages — 3-month check-in, annual/RBA
+  review, mid-term refinance, life event, repricing, referral loop, 5-year review — sit closer to the
+  9 Sep hybrid retention-and-advocacy lifecycle than the purpose-built Post Settlement pipeline does.
+- Stage names mix numbering styles ("1.", "1 |", "13 | Audit") and spell Salestrekker "Sales Trekker".
+
+## Automations — 21 workflows, 2 published
+
+| Workflow | Status | Last saved |
+|---|---|---|
+| Form to Deal Automation | **published** | 27 Aug 2026 (v5) |
+| Recipe - Appointment Confirmation + Reminder | **published** | 25 Sep 2025 (v4) — 2025 engagement |
+| Pre-Submission⚡️ | draft | 27 Aug 2026 (v9) |
+| Approval - Settlements 💰 | draft | 9 Sep 2026 (v4) |
+| Karlie Scharfenberg \| Discovery Call Automation💰 | draft | 27 Aug 2026 (v14) |
+| 16 Team OS template workflows (001–013, Partners OS 1–3) | draft | untouched since 11 Aug 2025 |
+
+- **No workflow exists** for Post Settlement, Construction, credit guide signing or retention.
+- **The API doesn't expose triggers or steps.** "Form to Deal" is described as form → contact +
+  opportunity → confirmation, with no lead scoring *(meetings, 27 Aug)*.
+- **Missed-call text-back** is reported live *(meetings)* but is not one of the 21 workflows — most
+  likely the phone number's own setting. Not API-verifiable.
+- **Instagram keyword DM:** "built, not connected" *(meetings)*. No TLS-named workflow matches; the
+  template "001 | IG Comments & DM's" is the likely base (`inferred`).
+- **No SMS or email templates** exist. All 15 email-builder folders are Team OS template sets, so
+  Karlie's welcome email isn't in the account yet. 0 campaigns.
+- Stage-by-stage automation planning tool with Michelle and Karlie, due COB Fri 11 Sep *(meetings)*.
 
 ## Forms and surveys
 
-| Asset | State |
+| Asset | Live state |
 |---|---|
-| **"Speak with a Broker" booking widget** | Built 27 Aug. Automation live: completion tags the contact and adds them to the pipeline. Waiting on Dylan to embed on the website |
-| **Short fact find** (form) | Built 2 Sep. Review notes: no "next of kin" in AU practice; liabilities need amount, term, rate, repayment; assets were missing |
-| **Full fact find** (10-page survey) | Built 3 Sep in TLS design tokens. Includes second employment, self-employment, and terms of engagement. **Mandatory fields not yet set.** Dylan prefers a direct link over DNS to an iframe |
-| **Pre-approval document collection** form | Built 2 Sep |
-| Website, advertisement, referral and event lead forms | Listed as sub-tasks; no evidence they are finished |
+| **Speak with a Broker** (form) | Exists. Website embed waiting on Dylan; the website form still posts to Salestrekker *(meetings)* |
+| **Fact Find** — 10 forms, "01 Applicant details" → "10 Consent and declaration" | Exist. 2 contacts have come through form 01 |
+| **Full Fact Find** (survey) and **Full Fact Find - Duplicate** | Both exist. 1 contact through the survey. **The form series and the survey overlap — pick one** |
+| Fact Find Form \| Short Form · 01 Primary Identification | Exist |
+| 12 template forms, 2 template surveys | Team OS clutter |
 
-Karlie's fact find field list is in [automation-requirements](automation-requirements.md).
+Mandatory fields not yet set *(meetings, 3 Sep)*. **The fact find's privacy consent names Queens of
+Finance and hardcodes CRN 477350**, and **no contact has any credit guide or consent field
+recorded** — see [ghl-data-audit](ghl-data-audit.md).
 
-## Automations
+## Calendars
 
-- **Stage automations were imported with the pipelines.** Warning given on 26 Aug: dragging a
-  card between stages fires them immediately. The team needs to know what is active before
-  going live.
-- **Lead ingestion automation** (form → contact + opportunity → confirmation) built 27 Aug.
-  Asana note: *"No qualification or lead scoring setup."*
-- **Missed-call text-back is live.** Verbatim SMS: *"Hi this is The Loans Suite, I saw that we
-  just missed your call how can I help?"*
-- **Instagram keyword DM automation** (a ManyChat replacement; keyword e.g. "lending" →
-  reply → capture name and mobile → send lead magnet) is **built but not connected** to TLS's
-  Instagram.
-- A **stage-by-stage automation planning tool** was built by Tumai and shared on 9 Sep.
-  Michelle and Karlie are filling in triggers, goals and steps — **due close of business
-  Friday 11 Sep 2026**.
-
-## Calendars and booking
-
-- Outlook connected for most of the team by 7 Sep; **Kaiden outstanding** (on leave, back
-  Wed 16 Sep).
-- Teams video conferencing needs Microsoft admin approval via TLSGA's IT provider
-  (**Trisarmi**), which charges roughly **$55 per call**. Plan: approve the whole team in one
-  session.
-- Per-broker booking types to configure: **online, phone, face-to-face** (office address).
-  **Jess (NSW)** gets a **mobile / travel-to-client** option. A **round-robin** calendar with a
-  staff dropdown is planned.
-- Asana "Calendar(s) Setup" still open, due 11 Sep.
-
-The live booking links and the routing gap are in
+**Six active**, one each for Karlie, Kaiden, Jess, Michelle, Emily and Reema; 12 inactive template or
+staff calendars. **No round-robin calendar is active.** Settings and defects:
 [calendars-and-routing](calendars-and-routing.md).
+
+Outlook sync is connected for most of the team, with Kaiden outstanding until 16 Sep. Teams needs Microsoft admin approval via
+Trisarmi, at ~$55 per call *(meetings)*.
 
 ## Phone and SMS
 
-- A new number was purchased after an ASIC-document regulatory bundle was approved.
-- **Forwarding to the 1300 number does not work** — calls go to voicemail. GHL may not support
-  forwarding to 1300 toll-free numbers (feature request open). Interim: forwarding to the
-  Penrith landline, which connected. Follow-up task open.
-- SMS cost quoted to the client as a fraction of a cent per message; can be disabled.
-- An IVR / AI call-answering agent was floated and **deferred**.
+- **+61 485 088 933** — mobile, SMS/MMS/voice, the default number, added 4 Sep 2026, labelled
+  "The Loan Suite". **Forwards to the Penrith landline (02 4733 4417)** — the interim fix, confirmed.
+- Forwarding to the 1300 number fails (GHL toll-free limitation); IVR/AI answering deferred *(meetings)*.
 
-## Domains — all four verified 8 Sep 2026
+## AI, funnels and domains
 
-| Subdomain | Purpose |
-|---|---|
-| `os.tlsga.com.au` | Mailbox / sending |
-| `discover.theloanssuite.com.au` | Pages and funnels |
-| `app.theloanssuite.com.au` | Client portal |
-| `client.theloanssuite.com.au` | Branded links |
+- **4 knowledge bases**: "The Loans Suite" (updated 7 Sep 2026), "Updated TLS KB" (28 Aug 2026), two
+  older "Existing knowledge base" sets. A "Test The Loan Suite Custom Chat Widget" page exists (Sep 2025).
+- **13 funnels/sites:** 11 Team OS templates, the chat-widget test page, and an **empty site named
+  "www.theloanssuite.com.au" (0 pages)**. **No TLS funnel or landing page has been built.**
+- **79 custom values, all empty** template placeholders; **22 trigger links**, all template.
+- Domains verified 8 Sep *(meetings — mappings aren't API-readable)*: `os.tlsga.com.au` (mailbox) ·
+  `discover.theloanssuite.com.au` (pages) · `app.theloanssuite.com.au` (portal) ·
+  `client.theloanssuite.com.au` (branded links). DNS controlled by Dylan Kemp (BrokerKit).
 
-DNS is controlled by **Dylan Kemp** (BrokerKit).
+## Data migration — what actually landed
 
-## Data migration
+- **1,882 contacts** (1,866 added Aug 2026) and **416 opportunities** (403 created Aug 2026).
+- Salestrekker allowed only an all-or-nothing export; data cleaned row by row; ~5% failed first
+  upload *(meetings)*. Scope: active trail book, not 10 years of history (18 Aug).
+- **69 clients have a tile in both Post Settlement and Clients.** The one-tile rule (4 Sep) isn't applied.
+- **The 302 settlements in Karlie's two workbooks aren't imported** — Settled holds 9.
+- **`Date Settled` is empty on every opportunity**, so no retention task can be generated from it.
+- **Karlie owns 88% of opportunities**; 37 are unassigned.
 
-- Salestrekker only allowed an **all-or-nothing export** of contacts and opportunities, so the
-  data was cleaned row by row. ~5% of opportunities failed first upload and were fixed.
-- **Stages did not map cleanly.** Unmatched deals were parked in **On Hold** for Karlie and
-  Michelle to move.
-- **Duplicate tiles exist** — some clients came in twice (one "retention", one named). Rule
-  agreed: one opportunity per client in post-settlement; delete the duplicate.
-- **Kaiden's broker KPI data was missing** after migration; re-import task closed 5 Sep.
-- Contact count seen on screen varied: **1,877** (26 Aug) and **1,118** (4 Sep) *(observed)*.
-  Unreconciled — verify via API.
-- Pending: Karlie to send **2025 and 2026 YTD settled loans** in one dedicated email titled
-  "Migration" for import into the Settled stage. Two workbooks arrived on 4 Sep — see
-  [settlement-data-baseline](settlement-data-baseline.md).
-- Scope decision (18 Aug): **don't import 10 years of history.** Start from the Salestrekker
-  retention workflow (the active trail book) as the live client base.
+Detail and fix order: [ghl-data-audit](ghl-data-audit.md).
 
-## Fields, boards and lists
+## Fields and objects
 
-- Custom contact and opportunity fields built from the fact find: identity, household,
-  dependants, loan requirements, property and security, loan structure, deal metrics.
-- **Broker KPI board** in OS, filtered by broker, used by Michelle from 8 Sep. Commission
-  split percentages are set too high and need correcting.
-- **"Referred by"** field on opportunities and **"How did you hear about us?"** on contacts.
-- Referral partners are uploaded as tagged contacts with a smart list, not a separate board.
-- **Mentor deals** (Jess's and Kaiden's mentoring obligation) tracked by tag: broker, amount,
-  mentor status. Internal KPI only.
+- **402 custom fields** — 275 contact, 92 opportunity, 35 across custom objects. The fact-find field
+  set is complete; the opportunity deal fields are well designed but **77 of 92 are empty on every
+  opportunity**.
+- **Custom objects in use:** Staff & Brokers (7 records), TLS Mentoring (53), Broker KPI's (54).
+  Michelle has used the KPI board since 8 Sep; commission split percentages are set too high *(meetings)*.
+- Referral partners as tagged contacts with a smart list *(meetings)*.
 
 ## Team access and rollout
 
-Rollout order agreed: **Michelle and Emily first**, then Jess and Kaiden. Training videos live
-in the platform's "Base" / "Start Here" academy. Karlie wants a **test client** run through
-before go-live. A WhatsApp group (Karlie, Michelle, Ariki, Tumai) handles quick questions.
+Rollout order: **Michelle and Emily first**, then Jess and Kaiden. Training in the platform's
+"Base" / "Start Here" academy. Karlie wants a **test client** run end to end before go-live. A
+WhatsApp group (Karlie, Michelle, Ariki, Tumai) handles quick questions *(meetings)*.
 
 ## Onboarding progress — Asana, 11 Sep 2026
 
-**52 of 88 tasks complete.** Done: payment, prep, workspace, branding, kickoff, most core
-setup, contacts migration, custom fields, tags, email, domains, phone number, pipelines,
-database, design system.
+**52 of 88 tasks complete.** Still open: Forms & Surveys · Automation · Newsletter · Salestrekker
+pipelines · Calendar setup · Custom settings · tracking tools · form routing · live chat · lead
+tagging · ad tracking · **every "Automations Active", QA and go-live task**.
 
-**Still open:** Forms & Surveys · Automation · Newsletter · Salestrekker pipelines ·
-Calendar setup · Custom settings · Install tracking tools · Verify form routing · Enable live
-chat · Validate lead tagging · Confirm ad tracking · **every "Automations Active" task**
-(review workflows, triggers and timing, test email/SMS, simulate lead flow, enable AI agent) ·
-**every QA task** · **every go-live task**.
+## Open issues to carry into the pipeline design
 
-## Open issues worth carrying into the pipeline design
-
-1. **Contact-first vs deal-first confusion.** Michelle lost a tile and found a "retention" duplicate.
-2. **Salestrekker's retention workflow is organised as month columns (Jan–Dec)** holding 45–60
-   clients each. OS replaces that with date-triggered tasks, and Michelle needs a look-ahead
-   view, not just day-of tasks.
-3. **US date picker** annoys staff; a backend setting is to be changed.
-4. **Relationship links** (spouse, company directors) need a custom field under the contact.
-5. **"Referred by" carries two meanings** — see [pipeline-decisions-log](pipeline-decisions-log.md).
-6. **Website form still posts to Salestrekker**, not OS, until Dylan switches it.
+1. **Retention has two homes.** Post Settlement (3 stages, 91 tiles) and Clients (8 stages, 282
+   tiles), with 69 clients in both. Pick one and merge.
+2. **No hold or not-proceeding path.** No On Hold stage, and **0 of 416 opportunities carry a lost
+   reason** — the "Not Proceeding Reason" picklist exists but is unused.
+3. **Stage automations exist only as drafts** — the design can start clean.
+4. **Back-fill `Date Settled`** before any retention automation.
+5. **Calendars** need meeting types, notifications and a round-robin.
+6. **Contact-first vs deal-first confusion** — Michelle's lost tile is explained by the duplicates.
+7. US date picker; a relationship-link field for spouses and directors; "Referred by" carrying two
+   meanings *(meetings)*.
+8. **Website form still posts to Salestrekker** until Dylan switches it.
 
 ## Related
 
+- [ghl-account-map](ghl-account-map.md) · [ghl-data-audit](ghl-data-audit.md)
 - [pipeline-decisions-log](pipeline-decisions-log.md) · [automation-requirements](automation-requirements.md)
 - [reporting-and-dashboard-requirements](reporting-and-dashboard-requirements.md)
 - [sfg-salestrekker-integration](sfg-salestrekker-integration.md) · [systems-and-ids](../01-company/systems-and-ids.md)

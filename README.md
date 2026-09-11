@@ -55,7 +55,7 @@ fund anything — and every claim boundary in this database follows from that.
 | `08-channels-and-playbooks/` | 9 executable playbooks, each with a pre-send checklist and a worked example |
 | `09-content-banks/` | Hooks, subject lines, CTAs, proof lines, objection turns, offer angles |
 | `10-faq-and-objections/` | Canonical FAQ, objection handling, chat and voice agent spec |
-| `11-operations/` | **Current OS build state, pipeline decisions log, automation and reporting requirements, the SFG/Salestrekker constraint, anonymised settlement baseline (internal)**, legacy pipelines, calendars, funnels, AI agents |
+| `11-operations/` | **Current OS build state and the GHL account map + data audit (read from the live sub-account), pipeline decisions log, automation and reporting requirements, the SFG/Salestrekker constraint, anonymised settlement baseline (internal)**, legacy pipelines, calendars, funnels, AI agents |
 | `99-source-material/` | The quarry — 71 page extractions, raw operations doc, measured tokens |
 
 Numbering is the load order: **ground truth → strategy → generation.**
@@ -93,7 +93,7 @@ Every file carries `confidence:` in its frontmatter.
 - **`assumed`** — a working placeholder. **Never publishable.** Stays on the roadmap until
   upgraded.
 
-**Current state: 67 verified · 21 inferred · 0 assumed in publishable files.**
+**Current state: 69 verified · 21 inferred · 0 assumed in publishable files.**
 
 The `inferred` files are concentrated in `03-audience-and-icp` — every ICP is reasoned from
 the client's marketing copy rather than from a prospect's mouth. That is the central weakness
@@ -113,6 +113,7 @@ of this build and the top item on the roadmap.
 | MFAA / Cotality, competitor websites, property data | Market share, teardowns, local medians | Aug 2026 |
 | **Granola meetings, tlsga.com.au email, Asana onboarding board** | Pipeline and automation decisions, reporting requirements, build state, principal and ops voice | Aug 2025 – Sep 2026 |
 | **Karlie's GHL brief, SFG credit guide and API checklist, settlement workbooks, ASIC extracts** | Target process, compliance rules, integration constraint, internal volume (anonymised) | Sep 2026 |
+| **GoHighLevel API — the live OS sub-account, read-only** | Pipelines, workflows, forms, calendars, fields, tags, custom objects, every ID; aggregated data quality | 11 Sep 2026 |
 
 Full provenance, including **four errors found in derived summary documents**, is in
 [`99-source-material/source-register.md`](99-source-material/source-register.md).

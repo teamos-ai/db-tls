@@ -202,8 +202,26 @@ calls their bank. Engagement scoring is not yet built.
 - **Couples:** one opportunity; each person is a separate contact.
 - Notes auto-timestamp and attribute — no manual date logging.
 
+## 12 · What the live account can't support yet — API read, 11 Sep 2026
+
+Check these before specifying any automation. Detail: [ghl-data-audit](ghl-data-audit.md).
+
+- **Retention off the settlement date** — `opportunity.date_settled` is **empty on all 416
+  opportunities**. Back-fill it first.
+- **The credit guide CRN merge** — there's no broker CRN field, and the fact find's consent text
+  hardcodes 477350 under Queens of Finance.
+- **The credit guide gate** — `contact.credit_guide_issued` and every other consent field are empty
+  on all 1,882 contacts. For existing clients the evidence sits in Salestrekker.
+- **"Field is empty" branches** — migrated financial fields hold 0 instead of blank.
+- **Per-broker routing and notifications** — 88% of opportunities are owned by Karlie; 37 are unassigned.
+- **Tag-triggered workflows** — the master tag list isn't applied; `rfi` and `refinance` both exist.
+- **"Opportunity name = customer name"** — 218 tiles are named "… retention".
+- **Stage triggers** — both stage workflows are drafts, and only 2 of 21 workflows are published, so
+  the build can start clean.
+
 ## Related
 
+- [ghl-account-map](ghl-account-map.md) — workflow, stage and field IDs
 - [pipeline-decisions-log](pipeline-decisions-log.md) · [current-build-state](current-build-state.md)
 - [nccp-and-best-interests-duty](../07-compliance-and-guardrails/nccp-and-best-interests-duty.md)
 - [email-sequences](../08-channels-and-playbooks/email-sequences.md) · [sms](../08-channels-and-playbooks/sms.md)

@@ -90,7 +90,9 @@ Three gaps, ranked by opportunity:
 
 ## Status update — 11 Sep 2026
 
-- Neither designed funnel has been built. The **lead-gen and qualification pipelines are parked**.
+- Neither designed funnel has been built. **Verified from the API (11 Sep):** OS has no TLS funnel or
+  page. There are 11 Team OS template funnels, a chat-widget test page and an empty site named
+  "www.theloanssuite.com.au". No lead-gen or qualification pipeline exists either.
 - What exists instead: the "Speak with a Broker" booking widget, short and full fact finds, a
   pre-approval document form, and a built-but-unconnected Instagram keyword DM automation. See
   [current-build-state](current-build-state.md).

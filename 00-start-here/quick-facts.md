@@ -126,6 +126,8 @@ earlier; 55.3% in March 2018.
 | Targets | Group $120M a year; two individual $40M targets |
 | Book mix, 2026 YTD | Refinance 55% of value · existing clients 62% of value · home loans 91% |
 | CRM | OS (GoHighLevel white-label) — customer record. Salestrekker — deal record |
+| OS sub-account | Location `vAX1ry0bjuYiAzEYFS9X` · **1,882 contacts · 416 opportunities** · 7 pipelines · 2 of 21 workflows published (API, 11 Sep 2026) |
+| OS number | +61 485 088 933 — forwards to the Penrith landline |
 | Credit guide | SFG template v102025; signed before submission, and at first interaction per SFG |
 
 → [current-build-state](../11-operations/current-build-state.md) · [settlement-data-baseline](../11-operations/settlement-data-baseline.md)

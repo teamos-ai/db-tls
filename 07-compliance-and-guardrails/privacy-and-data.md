@@ -106,6 +106,21 @@ The website privacy policy and the SFG Credit Guide / Privacy Consent template (
 Clients sign the credit guide version, so it is the operative consent. The website policy should
 be brought into line. **Client action, on the roadmap.**
 
+## Consent wording inside OS — added 11 Sep 2026
+
+Read from the live GoHighLevel sub-account:
+
+- **The fact find's privacy consent checkbox names *Queens of Finance Pty Ltd* and hardcodes CRN
+  477350** for every client, and lists a **third** set of overseas countries (Philippines, US, India,
+  UK). Fix the entity, merge the deal owner's CRN, and align one country list before the fact find
+  goes to clients. Detail: [ghl-data-audit](../11-operations/ghl-data-audit.md).
+- **Every OS booking calendar carries GHL's default consent line** — *"I confirm that I want to
+  receive content from this company using any contact information I provide."* That bundles
+  marketing consent into booking an appointment. Replace it with a booking-only acknowledgement, and
+  capture marketing consent separately (the fact find already has a Marketing Consent field).
+- **314 `employer` contacts** (employers and HR contacts from applications) sit in the client
+  database. They have no consent basis for any commercial message — exclude them from every campaign.
+
 ## Credentials sent by email
 
 Two **plaintext Salestrekker passwords** were sent by TLS staff to Team OS by email (Sep 2025 and

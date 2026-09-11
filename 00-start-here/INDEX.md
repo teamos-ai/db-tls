@@ -32,7 +32,7 @@ Every file, one line on what it holds, and when to load it.
 | [team](../01-company/team.md) | Six people, published titles, verbatim bios, the title correction table | Naming a person, bios, About copy |
 | [how-we-work](../01-company/how-we-work.md) | The four published stages, the three entry doors, the Loan Health Check | Explaining the process |
 | [offices-and-contact](../01-company/offices-and-contact.md) | NAP data, direct lines, service area, social handles | Local SEO, footers, schema, ads |
-| [systems-and-ids](../01-company/systems-and-ids.md) | Website platform, booking tools, client portal, CRM stack, blog taxonomy | Automation or integration work |
+| [systems-and-ids](../01-company/systems-and-ids.md) | Website platform, booking tools, client portal, CRM stack, OS location ID, blog taxonomy | Automation or integration work |
 | [site-map-and-routes](../01-company/site-map-and-routes.md) | Every published route, and the pages that don't exist | Internal linking, campaign planning |
 | [brand-and-design-tokens](../01-company/brand-and-design-tokens.md) | Measured colour, type, geometry, asset inventory | Any visual asset |
 
@@ -152,14 +152,16 @@ pre-send checklist · one worked example.
 
 | File | Holds | Load when |
 |---|---|---|
-| [current-build-state](../11-operations/current-build-state.md) | **What exists in the OS sub-account now** — pipelines, forms, automations, phone, domains, migration, open tasks | **Start of any build or pipeline work** |
+| [current-build-state](../11-operations/current-build-state.md) | **What exists in the OS sub-account now, read from the API** — live pipelines, workflows, forms, calendars, phone, migration, and what the meetings got wrong | **Start of any build or pipeline work** |
+| [ghl-account-map](../11-operations/ghl-account-map.md) | **Every GHL ID** — location, users, pipelines and stages, workflows, forms, surveys, calendars, custom objects, field keys | **Specifying any automation** |
+| [ghl-data-audit](../11-operations/ghl-data-audit.md) | Migrated data quality: duplicate tiles, empty settlement dates, ownership, tags, fields, the consent-text defect, fix order | **Before any automation, report or campaign on OS data** |
 | [pipeline-decisions-log](../11-operations/pipeline-decisions-log.md) | Every pipeline decision in order, with reversals and open design questions | **Designing pipelines or stages** |
 | [automation-requirements](../11-operations/automation-requirements.md) | Client's rules for automations: comms frequency, credit guide, fact find, retention cadence, welcome email | **Designing automations** |
 | [reporting-and-dashboard-requirements](../11-operations/reporting-and-dashboard-requirements.md) | Karlie's and Michelle's reporting needs, the Monday dashboard to replace, required deal fields | Dashboards, KPIs, award data |
 | [sfg-salestrekker-integration](../11-operations/sfg-salestrekker-integration.md) | The aggregator constraint: data in only, the API checklist and indemnity, risks before signing | **Any stage touching submission or settlement** |
 | [settlement-data-baseline](../11-operations/settlement-data-baseline.md) | Anonymised 2025 and 2026 YTD volume, mix and data-quality defects — **internal only** | Targets, reporting design, segment sizing |
 | [pipelines](../11-operations/pipelines.md) | **Legacy Salestrekker pipelines** — verified stage names, with a correction note | Understanding the as-is system |
-| [calendars-and-routing](../11-operations/calendars-and-routing.md) | Live booking links, the routing gap | Any booking CTA |
+| [calendars-and-routing](../11-operations/calendars-and-routing.md) | Live OS calendar settings and their nine defects, website booking links, the routing gap | Any booking CTA or calendar build |
 | [funnel-architecture](../11-operations/funnel-architecture.md) | Two designed funnels — **not live** | Funnel work |
 | [ai-voice-and-chat](../11-operations/ai-voice-and-chat.md) | Chat and voice designs — **not live** | Agent work |
 
