@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: verified
 source: n/a — this is the catalogue
-as_of: 2026-08-27
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [index, catalogue, navigation]
 ---
@@ -152,7 +152,13 @@ pre-send checklist · one worked example.
 
 | File | Holds | Load when |
 |---|---|---|
-| [pipelines](../11-operations/pipelines.md) | Six real pipelines with actual stage names | Automation, email triggers |
+| [current-build-state](../11-operations/current-build-state.md) | **What exists in the OS sub-account now** — pipelines, forms, automations, phone, domains, migration, open tasks | **Start of any build or pipeline work** |
+| [pipeline-decisions-log](../11-operations/pipeline-decisions-log.md) | Every pipeline decision in order, with reversals and open design questions | **Designing pipelines or stages** |
+| [automation-requirements](../11-operations/automation-requirements.md) | Client's rules for automations: comms frequency, credit guide, fact find, retention cadence, welcome email | **Designing automations** |
+| [reporting-and-dashboard-requirements](../11-operations/reporting-and-dashboard-requirements.md) | Karlie's and Michelle's reporting needs, the Monday dashboard to replace, required deal fields | Dashboards, KPIs, award data |
+| [sfg-salestrekker-integration](../11-operations/sfg-salestrekker-integration.md) | The aggregator constraint: data in only, the API checklist and indemnity, risks before signing | **Any stage touching submission or settlement** |
+| [settlement-data-baseline](../11-operations/settlement-data-baseline.md) | Anonymised 2025 and 2026 YTD volume, mix and data-quality defects — **internal only** | Targets, reporting design, segment sizing |
+| [pipelines](../11-operations/pipelines.md) | **Legacy Salestrekker pipelines** — verified stage names, with a correction note | Understanding the as-is system |
 | [calendars-and-routing](../11-operations/calendars-and-routing.md) | Live booking links, the routing gap | Any booking CTA |
 | [funnel-architecture](../11-operations/funnel-architecture.md) | Two designed funnels — **not live** | Funnel work |
 | [ai-voice-and-chat](../11-operations/ai-voice-and-chat.md) | Chat and voice designs — **not live** | Agent work |
@@ -165,4 +171,5 @@ pre-send checklist · one worked example.
 | [source-register](../99-source-material/source-register.md) | Every source, authority, date, and the errors found in derived docs |
 | `website-scrape/` | 71 page extractions |
 | `ghl-operational-database-RAW.md` | The raw operations document |
+| `client-documents/` | Karlie's GHL process brief, the SFGconnect API checklist, the SFG credit guide template (all raw, no client data) |
 | `computed-design-tokens.json` · `sitemap-inventory.json` | Measured data |

@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: inferred
 source: appointment design from Karlie's GHL configuration (Aug 2026); live booking links extracted from theloanssuite.com.au markup. The live links are verified; the routing design is a proposed target state.
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [operations, calendars, booking, routing, ghl]
 ---
@@ -69,6 +69,22 @@ the cheapest high-impact operational fix available.
   **Loan Health Check** — a named offer with no page attached — is the obvious candidate,
   and would answer Borro's "Free Loan Assessment in 30 Minutes" without matching their
   outcome language. See [competitor-borro](../06-competitors-and-market/competitor-borro.md).
+
+## Status update — 11 Sep 2026
+
+The OS calendar build is under way and supersedes much of the "target state" above:
+
+- **Outlook sync** connected for most of the team; Kaiden outstanding until he returns 16 Sep.
+- **Teams video** blocked pending Microsoft admin approval through Trisarmi (~$55 per IT call) —
+  plan is one whole-team approval session.
+- **Booking types per broker:** online, phone, face-to-face at the office address. **Jess (NSW)**
+  gets a travel-to-client option.
+- **Round-robin** calendar with a staff dropdown is being configured.
+- **"Speak with a Broker" booking widget** is live on `link.teamos.ai`, tagging and pipelining new
+  bookings. Waiting on the website embed.
+- The Calendly and TidyCal links remain in use on the website until then.
+
+Detail: [current-build-state](current-build-state.md).
 
 ## Related
 

@@ -4,8 +4,8 @@ title: The team — six people, published titles and verbatim bios
 type: company
 status: approved
 confidence: verified
-source: theloanssuite.com.au/about and /team/* (six pages, scraped Aug 2026)
-as_of: 2026-08-26
+source: theloanssuite.com.au/about and /team/* (six pages, scraped Aug 2026); internal roles, CRNs and wider team from Granola meetings Aug–Sep 2026, tlsga.com.au email signatures, Karlie's settlement workbooks (4 Sep 2026) and The Adviser awards records
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [team, people, bios, karlie, voice-sample]
 ---
@@ -108,8 +108,42 @@ titles that **do not match the website**:
 **The website wins.** If Karlie wants "Managing Director" used, that is a decision to
 confirm and then change on the site first, not a licence to use it in campaigns.
 
+## Internal roles and how the team actually works — verified Sep 2026
+
+> **Internal only.** The published titles above are what copy uses. This section is for operations
+> and pipeline design. **Personal mobile numbers are deliberately not recorded here.**
+
+| Person | Internal role | Credit Rep No. | Notes |
+|---|---|---|---|
+| **Karlie Scharfenberg** | **Founder and Director.** Principal broker; commercial and complex files; mentor check on others' files | **477350** | Named "director" by The Adviser and on her own GHL brief. Based QLD |
+| **Jessica Didovich-Lasalo** | NSW broker | **576563** | Hours Mon–Fri 9:30am–5:30pm. **Travels to clients** — needs a mobile booking option. Led the 2025 OS engagement |
+| **Kaiden Harrison** | QLD broker | **570030** | Karlie's son, under a two-year mentoring arrangement. 7 settlements in 2025 → 30 in 2026 YTD |
+| **Michelle Cairncross** | Operations Manager — lodgement through settlement, settlement tracker, post-settlement calls | — | Sydney. **Works Mon–Thu, 9am–5pm.** Joined about Nov 2025. Ex-Suncorp and retail CRM background. Primary OS user. Uses Claude |
+| **Emily Baulch** | Social media, content scheduling, broker support | — | Brisbane. Schedules Reels natively in Instagram |
+| **Phoebe Guy** | Audits and 30-day calls | — | Part-time |
+| **Reema** | Credit packaging | — | Signs the team welcome email and has her own Salestrekker stage ("Reema Files"). Meeting notes describe "a Nepal-based VA supporting credit packaging" — **that Reema is this VA is `inferred`** |
+
+The **Credit Rep No. column matters for automation.** Each broker has their own number, and the
+credit guide merges the deal owner's. The website footer shows only 477350 (Karlie's). See
+[licensing-and-entity](licensing-and-entity.md).
+
+### People around the business
+
+| Person | Relationship |
+|---|---|
+| **Dylan Kemp** | Karlie's brother. Runs **BrokerKit** — the website platform, DNS, social links and the website → Salestrekker lead connection |
+| **Maryanne** (360 Mortgage Solutions) | Broker and friend; co-owns **The 360 Suite Pty Ltd** with Karlie. Credit Rep **490945**. Her settlements appear in TLS's 2025 workbook. Trail books were consolidated from "Loan Suite 360". Also a Team OS client |
+| **Trisarmi** | TLSGA's IT provider; controls the Microsoft 365 backend. Charges roughly $55 per support call |
+| **Specialist Finance Group** | Aggregator. See [sfg-salestrekker-integration](../11-operations/sfg-salestrekker-integration.md) |
+
+### Former team names
+
+Customer reviews name **Emma** (2019), **Lisa** and **Carms**. None are on the current team. Don't
+imply otherwise when quoting reviews.
+
 ## Related
 
 - [company-profile](company-profile.md) · [how-we-work](how-we-work.md)
 - [systems-and-ids](systems-and-ids.md) — booking links per broker
+- [current-build-state](../11-operations/current-build-state.md) — who's using OS and how
 - [brand-voice](../04-voice-and-messaging/brand-voice.md)

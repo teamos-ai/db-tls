@@ -5,7 +5,7 @@ type: icp
 status: approved
 confidence: inferred
 source: reasoned from /home-loan-comparison, /calculators/mortgage-stress-check, /calculators/equity-cashout-calculator, blog "The Covid Rate Trap", and the retention pipeline in 11-operations
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [icp, refinance, rate, mortgage-stress, retention]
 ---
@@ -85,6 +85,20 @@ Recently refinanced (under ~12 months), likely to be selling within 12 months, o
 hardship — that is a hardship conversation with their lender and the National Debt Helpline
 (**1800 007 007**, which the site itself publishes), not a refinance pitch.
 See [disqualifiers](disqualifiers.md).
+
+## The data now backs this — added 11 Sep 2026
+
+Karlie's 2026 settlement workbook (to 4 Sep) confirms the refinancer is the core of the business:
+
+- **Refinances: 60 of 126 settlements (48%) and $42.3M of $77.3M (55%)**
+- **Existing clients: 66 of 126 settlements (52%) and $48.3M (62%)**
+
+Source: [settlement-data-baseline](../11-operations/settlement-data-baseline.md) — internal, not publishable.
+
+**A verified trigger, and a verified loss.** Michelle, 26 Aug 2026: a past client opened the
+latest RBA-rate email twice. When Karlie called, the client *"had gone direct to the bank and fixed
+for two years."* The existing client who reprices directly with their bank is the leak this ICP's
+retention sequence exists to close.
 
 ## Related
 

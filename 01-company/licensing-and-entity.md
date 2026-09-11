@@ -5,7 +5,7 @@ type: company
 status: review
 confidence: verified
 source: ABN Lookup (abr.business.gov.au) for both ABNs, retrieved 2026-08-27; search-afsl.com credit licence record for ACL 387025; theloanssuite.com.au/privacy-policy (12 Jul 2024) and site footer; The Adviser Australian Broking Awards 2023 results
-as_of: 2026-08-27
+as_of: 2026-09-11
 researched: 2026-08-27
 owner: Karlie Scharfenberg
 tags: [legal, entity, acl, credit-representative, aggregator, sfg, unresolved]
@@ -137,6 +137,36 @@ tenure, not a company's age, and no register supports a business-age claim. Do n
   client's accountant knowing that the entity named in their published privacy policy carries
   no GST registration.
 - SFG's total lender panel size.
+
+## New evidence — 11 Sep 2026
+
+**ASIC company extracts** (pulled 3 Sep 2026 for the phone-number regulatory bundle, attached in Asana):
+
+| | The Loans Suite Group Australia Pty Ltd | Queens of Finance Pty Ltd |
+|---|---|---|
+| ACN / ABN | 667 838 146 / 41 667 838 146 | 676 457 337 / 38 676 457 337 |
+| Registered | 9 May 2023 | 10 Apr 2024 |
+| **Former name** | **Flawless Studios Newport Pty Ltd** | — |
+| **Registered office locality** | **Penrith NSW 2750** | **Newport QLD 4020** |
+| Status | Registered | Registered |
+
+**Karlie's own documents name The Loans Suite Group Australia.** Her GHL brief (Aug 2026) is
+footed *"The Loans Suite Group Australia Pty Ltd | ABN 41 667 838 146"* and addressed to
+*"Karlie Scharfenberg, Director"*. The staff domain is tlsga.com.au. Combined with the business-name
+registration, GST registration and the 2023 award record, **TLSGA is very likely the operating
+entity** (`inferred`, strongly supported).
+
+**Credit representative numbers are per broker, not per business.** Settlement records show
+**477350 (Karlie)**, **570030 (Kaiden)** and **576563 (Jess)**; 490945 belongs to Maryanne
+(360 Suite). **The website footer's 477350 is the number on Karlie's deals.** Still unconfirmed:
+whether 477350 is authorised to Karlie personally or to a company, and which company. The Own Your
+Loan apply wizard carries 570030 — Kaiden's number, not an error.
+
+**The licensee's full legal name**, from SFG's own integration indemnity: *Mortgage Specialists Pty
+Ltd as trustee for The Janet Smith Family Trust trading as Specialist Finance Group.*
+
+**Still open:** which entity or individual holds each authorisation; why the privacy policy names
+Queens of Finance; whether "The Property Suite" is active.
 
 ## Related
 

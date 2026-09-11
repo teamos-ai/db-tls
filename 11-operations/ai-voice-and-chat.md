@@ -5,7 +5,7 @@ type: system
 status: draft
 confidence: inferred
 source: AI agent design from Karlie's GHL planning documentation (Aug 2026). No chat widget or voice agent is present on theloanssuite.com.au as scraped.
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [ai, voice-agent, chat, operations, proposed, compliance-critical]
 ---
@@ -85,6 +85,18 @@ non-human identity is not.
 [10-faq-and-objections/faq](../10-faq-and-objections/faq.md) and the compliance folder.
 **Build the FAQ before building the agent** — an agent pointed at nothing improvises, and
 improvisation on a regulated product is the failure mode this whole database exists to prevent.
+
+## Status update — 11 Sep 2026
+
+- **Missed-call text-back SMS is live:** *"Hi this is The Loans Suite, I saw that we just missed your
+  call how can I help?"*
+- An **IVR / AI agent to answer and redirect calls** was offered on 9 Sep and **deferred** as a later build.
+- **"Enable AI Agent"** and **"Enable Live Chat"** remain open onboarding tasks.
+- A website AI chat widget trained on 260 pages and 30 FAQs was built in the **2025** engagement.
+  Whether it's deployed is unverified.
+- **SFG's integration checklist forbids AI agents in the SFGconnect integration path.** Any AI
+  agent must stay entirely separate from the Salestrekker bridge. See
+  [sfg-salestrekker-integration](sfg-salestrekker-integration.md).
 
 ## Related
 

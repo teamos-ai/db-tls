@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: verified
 source: theloanssuite.com.au (Aug 2026) — each fact traces to its own file, linked below
-as_of: 2026-08-27
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [quick-facts, reference, cheat-sheet]
 ---
@@ -113,6 +113,22 @@ earlier; 55.3% in March 2018.
 → [statistics-and-sources](../05-proof-and-evidence/statistics-and-sources.md)
 
 ---
+
+## Internal — operations facts (never publishable)
+
+| | |
+|---|---|
+| Karlie's internal role | **Founder and Director** |
+| Credit Rep numbers | **Karlie 477350 · Kaiden 570030 · Jess 576563** (Maryanne, 360 Suite: 490945) |
+| Operating entity | The Loans Suite Group Australia Pty Ltd — formerly Flawless Studios Newport Pty Ltd; registered office Penrith NSW |
+| Aggregator | Specialist Finance Group — Salestrekker mandatory for home loans; **data in, never out** |
+| Volume | ~$10M/month. 2025: 176 settlements / $113.5M (**incl. $17.1M 360 Suite**). 2026 YTD to 4 Sep: 126 / $77.3M |
+| Targets | Group $120M a year; two individual $40M targets |
+| Book mix, 2026 YTD | Refinance 55% of value · existing clients 62% of value · home loans 91% |
+| CRM | OS (GoHighLevel white-label) — customer record. Salestrekker — deal record |
+| Credit guide | SFG template v102025; signed before submission, and at first interaction per SFG |
+
+→ [current-build-state](../11-operations/current-build-state.md) · [settlement-data-baseline](../11-operations/settlement-data-baseline.md)
 
 ## What we have no figures for — do not fill these in
 

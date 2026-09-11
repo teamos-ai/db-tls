@@ -5,7 +5,7 @@ type: system
 status: approved
 confidence: verified
 source: S1 gap analysis, the S9 audit, and a deep research pass conducted 2026-08-27
-as_of: 2026-08-27
+as_of: 2026-09-11
 researched: 2026-08-27
 owner: Tumai (Team OS)
 tags: [roadmap, gaps, enrichment, priorities, interview-agenda]
@@ -16,7 +16,58 @@ tags: [roadmap, gaps, enrichment, priorities, interview-agenda]
 **An honest map of what this database knows, what research closed, and what only the client can
 answer.**
 
-**Truth tiers: 61 `verified` · 21 `inferred` · 0 `assumed` in publishable files.**
+**Truth tiers: 67 `verified` · 21 `inferred` · 0 `assumed` in publishable files.**
+
+---
+
+## Part 0 — update, 11 September 2026: the client-side sources
+
+A second pass pulled in **5 Granola meetings (3 full transcripts), 20+ tlsga.com.au email threads,
+Karlie's GHL process brief, SFG's integration checklist, the credit guide template, two ASIC
+extracts, the Asana onboarding board and two settlement workbooks** (aggregated, no client names).
+It produced a new operations layer — see [current-build-state](../11-operations/current-build-state.md).
+
+### Closed
+
+| Was a gap | Now |
+|---|---|
+| Who is Reema? | Credit packaging; signs the team welcome email. Likely the Nepal-based VA (`inferred`) |
+| SFG panel size | **59 named lenders** on SFG's credit guide panel list |
+| Karlie's role | **Founder and Director** (her brief, The Adviser, meetings) |
+| Credit rep numbers | **Per broker:** Karlie 477350 · Kaiden 570030 · Jess 576563 |
+| Which company operates | TLSGA very likely (Karlie's own brief uses it); former name Flawless Studios Newport Pty Ltd |
+| Business volume | Exists internally — see [settlement-data-baseline](../11-operations/settlement-data-baseline.md). **Still unpublishable** |
+| Real pipeline structure | **Verified** from Salestrekker screenshots. The earlier GHL planning document embellished it — corrected |
+| Principal voice | Three recorded meetings now supply Karlie's and Michelle's words (still no prospect calls) |
+
+### New gaps — ranked
+
+1. **No API access to the GHL sub-account.** Build state is reconstructed from meetings, not read.
+   Location, pipeline, stage, workflow, form and calendar IDs are all unknown. *Needs: a PIT for the
+   "The Loans Suite" sub-account.*
+2. **SFG integration checklist risks before Karlie signs.** Data residency (AU/NZ required), "no AI
+   agents", certification and pen-test evidence, and an uncapped continuing indemnity. See
+   [sfg-salestrekker-integration](../11-operations/sfg-salestrekker-integration.md).
+3. **Cold list of ~250 leads has no consent basis** for SMS or email. Spam Act blocker. See
+   [privacy-and-data](../07-compliance-and-guardrails/privacy-and-data.md).
+4. **"Referred by" is used for two different things** — broker attribution and referral source.
+5. **Commissions: in the CRM or not?** Contradictory decisions on 18 Aug and 9 Sep, and in the brief.
+6. **Settlement data quality** — CRN typos, swapped columns, missing dates. Use picklists.
+7. **Plaintext passwords were emailed.** Rotate.
+8. **Privacy policy vs credit guide** disagree on overseas countries and CRBs.
+9. **Website form still posts to Salestrekker** until Dylan switches it.
+10. **Forwarding to the 1300 number fails** (GHL toll-free limitation).
+
+### Add to the Karlie interview agenda
+
+- Whose are the two **$40M individual targets**?
+- Should award figures **include the 360 Suite volume**?
+- Is **SMSF** still a reporting category?
+- Credit guide: **before or after** the initial conversation — confirm with SFG
+- Do you still want a **pre-approval 30/60/75-day** lifecycle?
+- Where do **bridging** deals go?
+- What is the **consent basis** of Dylan's 250-lead list?
+- **Commissions** — in OS or Excel?
 
 ---
 
@@ -220,7 +271,5 @@ Research has taken this database as far as public sources allow. Everything belo
 
 ## What is deliberately not on this list
 
-**More content.** 171 blog posts, seven calculators, a twelve-partner directory. This business
-does not have a content problem. It has a **proof, routing, entity-clarity and local-SEO
-problem** — and three stale scheme pages that are wrong today. Fix those before writing
-anything new.
+**More content.** The business has a proof, routing, entity-clarity and data-quality problem, not a
+content problem. Fix those first.

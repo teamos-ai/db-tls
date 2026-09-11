@@ -5,7 +5,7 @@ type: offer
 status: approved
 confidence: verified
 source: theloanssuite.com.au — "more than 60 lenders" verbatim across /home-loans, /first-home-loan, /investing-in-property, /home-loan-comparison; lender logo assets from the homepage; /privacy-policy for named lenders
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [lenders, panel, aggregator, proof]
 ---
@@ -87,6 +87,33 @@ locally:
 
 See [positioning](../04-voice-and-messaging/positioning.md) and
 [06-competitors-and-market](../06-competitors-and-market/README.md).
+
+## The SFG panel list — verified 11 Sep 2026
+
+The aggregator's Credit Guide template (version 102025) lists **59 named lenders** on Specialist
+Finance Group's panel, with the caveat that *"We may not be accredited with every lender listed
+above."*
+
+AMP Bank · ANZ · Altura Finance · Australian Military Bank · Auswide Bank · Bank Australia · Bank
+of Melbourne · Bank of Queensland · Bank of Sydney · BankSA · BankVic · Bankwest · Bendigo Bank ·
+Better Choice Home Loans · Better Mortgage Management · Beyond Bank Australia · Bluebay Home Loans
+· Bluestone Home Loans · Bridgit · Clinch Finance · Commonwealth Bank · Firefighters Mutual Bank ·
+Firstmac · Great Southern Bank · Health Professionals Bank · Heartland Reverse Mortgages · Heritage
+Bank · Household Capital · IMB Bank · ING · Keystart · La Trobe Financial · Liberty Financial · MA
+Money · ME Bank · MOVE Bank · Macquarie Bank · Midkey · Mortgage Ezy · MyState · NAB · ORDE
+Financial · P&N Bank · Paramount Mortgage Services · People First Bank · Pepper Money · Qudos Bank
+· RACQ Bank · Resimac · Skip Loans · St.George Bank · Suncorp Bank · Teachers Mutual Bank ·
+Thinktank · UniBank · Victorian Mortgage Group · WLTH · Westpac · ubank
+
+**What this does to the "more than 60" claim.** The residential panel list is **59**. TLS's
+settlement records also show asset, commercial and specialist funders outside that list
+(e.g. Assetline Capital, Metro, Angle Finance). So "more than 60 lenders" is **defensible across all
+finance types, but not from the residential panel list alone**. The claim stays usable because it
+is the client's own published claim and the extra funders support it — but **confirm its basis with
+Karlie** before it carries weight in an ad.
+
+**Lenders actually used:** 36 distinct in 2025 and 39 in 2026 YTD; Macquarie most-used both years.
+See [settlement-data-baseline](../11-operations/settlement-data-baseline.md).
 
 ## Related
 

@@ -5,7 +5,7 @@ type: system
 status: draft
 confidence: inferred
 source: funnel designs from Karlie's GHL planning documentation (Aug 2026). These are proposed builds, not live funnels — nothing matching them appears on theloanssuite.com.au.
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [funnels, operations, design, proposed, partners]
 ---
@@ -87,6 +87,16 @@ Three gaps, ranked by opportunity:
    relevant calculators, and the warmest copy on the site — and no funnel.
 3. **Sub-broker recruitment.** A completely separate business model on one unsupported page.
    See [sub-broker-offer](../02-offer-and-lending/sub-broker-offer.md).
+
+## Status update — 11 Sep 2026
+
+- Neither designed funnel has been built. The **lead-gen and qualification pipelines are parked**.
+- What exists instead: the "Speak with a Broker" booking widget, short and full fact finds, a
+  pre-approval document form, and a built-but-unconnected Instagram keyword DM automation. See
+  [current-build-state](current-build-state.md).
+- The **cold-list outreach** Karlie asked about has a consent blocker — see
+  [privacy-and-data](../07-compliance-and-guardrails/privacy-and-data.md).
+- The referrer-portal milestone notifications remain blocked on client consent, as above.
 
 ## Related
 

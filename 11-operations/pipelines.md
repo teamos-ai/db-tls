@@ -1,135 +1,138 @@
 ---
 id: pipelines
-title: The six pipelines — Karlie's production workflow
+title: Legacy Salestrekker pipelines — the verified stage structure
 type: system
 status: approved
 confidence: verified
-source: Karlie Scharfenberg's live GoHighLevel / Salestrekker configuration, inspected Aug 2026 and documented in database-blueprints/ghl-operational-database.md (see 99-source-material). Stage names are hers.
-as_of: 2026-08-26
+source: Tumai's transcription of Salestrekker pipeline screenshots, posted to Asana task "⚡ Pipelines" on 19 Aug 2026; Karlie's "Pipeline Stages" email (19 Aug 2025); Granola transcripts 4 Sep and 9 Sep 2026. Corrected 2026-09-11 against the earlier GHL planning document.
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
-tags: [operations, pipelines, ghl, salestrekker, workflow]
+tags: [operations, pipelines, salestrekker, legacy, stages, internal]
 ---
 
-# The six pipelines
+# Legacy Salestrekker pipelines
 
-Extracted from the live CRM configuration. **These are the business's real stage names**,
-including the informal ones — they are reproduced faithfully because they are how the team
-actually talks, and because a marketing automation that uses different names will not match
-what operations sees.
+The pipelines TLS actually ran in Salestrekker (SFG v2) before the OS build. **This is the
+as-is baseline** for designing the dream pipeline. The current OS build is in
+[current-build-state](current-build-state.md); decisions since are in
+[pipeline-decisions-log](pipeline-decisions-log.md).
 
-> **Internal only.** No pipeline stage name appears in client-facing copy. "The Shitshow" is
-> a real stage in a real system and must never leave this repo.
+> **Internal only.** Stage names are the team's own, including informal ones. "The Shitshow" is a
+> real stage name and must never appear in anything client-facing.
 
-## 1 · Leads & Inbound Qualification
+> **Correction, 11 Sep 2026.** An earlier version of this file was built from the
+> `ghl-operational-database-RAW.md` planning document. Checked against the stage names Tumai
+> transcribed directly from Salestrekker screenshots, **that document embellished**. It added
+> stages (e.g. "Contact Made / Discovery Booked"), merged others, and described automations —
+> "5-minute SMS", "celebration SMS", "settlement gift" — **that were never observed running**.
+> The stage lists below are the verified ones. Automation descriptions from that document are
+> **not** evidence of what exists.
 
-Triage inbound web enquiries, paid-social leads and partner introductions — target **within
-five minutes**.
+## 1 · Leads
 
-1. `New Lead Set up` — missed-call text-back and instant SMS qualification fire
-2. `Contact Made / Discovery Booked` — 15-minute qualification call scheduled
-3. `Credit Guide Sent` — Credit Guide dispatched by SMS/email
-4. `Credit Guide Signed / Fact Find Issued` — digital Fact Find and 100-point ID link sent
-5. `On Hold / Nurture` — unserviceable now, or a long-term deposit saver
+1. New Lead Set up
+2. On Hold
+3. Credit Guide Sent
+4. Credit Guide Signed
 
-**Marketing hooks:** stage 1 is where speed-to-lead lives — the difference between a 5-minute
-and a 30-minute response is the difference between a booked call and a lost lead. Stage 5 is
-the **nurture pool**, and it is the most valuable underused asset in the business: people who
-wanted to buy, couldn't yet, and will.
+Four stages. The credit guide was already a pipeline gate in the old system, which is why the
+OS build restored it as a stage on 9 Sep.
 
-## 2 · Loan Submission & Strategy Formulation
+## 2 · Loan Submission
 
-File packaging, expense scrubbing and desk allocation.
+1. Jess Clients
+2. Kaiden Clients
+3. Karlie Clients
+4. The Shitshow — stalled or complex files
+5. Reema Files — the credit packaging desk
+6. Prelim Pre/AOL
+7. Karlie Mentor Check — principal quality check before lodgement
+8. AOL Submission
 
-1. `Jess Clients` — allocated to Jessica Didovich-Lasalo
-2. `Kaiden Clients` — allocated to Kaiden Harrison
-3. `Karlie Clients` — retained by Karlie (VIP, high-net-worth, complex commercial)
-4. `Reema Files` — dedicated packaging desk
-5. `The Shitshow` — stalled or complex files needing a policy exception or BDM escalation
-6. `Prelim Pre / AOL Setup` — serviceability run in **Quickli**, living expenses reconciled,
-   **ApplyOnline** draft started
-7. `Karlie Mentor Check` — principal QA before submission
-8. `AOL Submission` — formally lodged with the lender
+**Stages 1–3 are broker queues, not journey stages.** Ownership was encoded as position. In OS
+that becomes an assigned-user field plus saved views, which frees the stages to describe progress.
 
-**Note:** `Reema Files` names a packaging resource **not listed among the six published team
-members**. Confirm whether Reema is staff, contractor or offshore support before any content
-references team size. See [team](../01-company/team.md).
+**Stage 7 is a real quality gate**: Karlie reviews files (notably for the mentored brokers) before
+they're lodged. The prelim stage carries a checklist of about nine items, and *"nothing moves
+ahead to the next stage until the checklist is completed."* See
+[automation-requirements](automation-requirements.md).
 
-**The `Karlie Mentor Check` stage is a genuine proof point** — every file passes principal QA
-before lodgement. That is a real quality-control claim, and it is not on the website.
+## 3 · Approval — Settlements
 
-## 3 · Approval & Settlement Engine
+1. Submitted
+2. MIR's (more information required)
+3. Approved — Pending
+4. Formal Approval
+5. Loan Docs
+6. Settlement Booked
+7. Settled
+8. Audit
+9. 30 Day Calls
+10. HOLD/NPW (not proceeded with)
 
-1. `Submitted / In Queue` — automated SMS: *"Your application is in the queue with [Lender]"*
-2. `MIR's (More Information Required)` — assessor query, high-priority task raised
-3. `Approved - Pending (Conditional / AIP)` — valuation ordered, inspection tracked
-4. `Formal Approval (Unconditional)` — celebration SMS and conveyancer update
-5. `Loan Docs Issued / Signed`
-6. `Settlement Booked` — **PEXA** workspace open, funds-to-complete verified
-7. `Settled` — drawdown complete, settlement gift dispatched
-8. `Audit & Compliance Check` — BID file note archived for aggregator compliance
-9. `30 Day Calls` — first-repayment check-in
-10. `HOLD / NPW (Not Proceeded With)`
+Settlement, audit and the first retention touch all live in one pipeline here. In OS they're split
+across Approvals, Settlements and Post-Settlement.
 
-**Marketing hooks:** stages 4 and 7 are the **peak-emotion moments** in the entire
-relationship — the single best time to ask for a review or a referral. The review gap against
-Borro's 215+ Google reviews is solved here, not by a campaign.
-Stage 10 is a re-engagement pool.
+## 4 · Pre-Approval
 
-## 4 · Pre-Approval Lifecycle
+1. Pre-Approval
+2. 30 Days
+3. 60 Days
+4. 75 Days
+5. Expired
 
-Tracking house hunters through a 90-day pre-approval window.
+A time-based lifecycle for pre-approved buyers still searching. **No equivalent has been
+confirmed in the OS build** — flagged as an open design question.
 
-1. `Pre-Approval Active`
-2. `30 Days Check-in` — *"How is the property search going? Any contracts of sale to review?"*
-3. `60 Days Check-in` — property report / auction guide sent
-4. `75 Days Expiry Warning` — payslips must be refreshed before day 90
-5. `Expired / Extension Requested`
+## 6 · Construction Loans
 
-**A ready-made three-touch nurture sequence with built-in deadlines.** Pre-approved buyers are
-the warmest audience the business has and the easiest to lose to a competitor at day 91.
+1. Settled Construction Not Started
+2. Deposit/Pool Stage
+3. Progress Claim 1 — Base
+4. Progress Claim 2 — Frame
+5. Progress Claim 3 — Enclosed
+6. Progress Claim 4 — Fixing
+7. Progress Claim 5 — Practical
+8. Landscaping Payments
+9. Final Hand Over
+10. Repricing — Valuation
 
-## 5 · Construction Loans Workflow
+Rebuilt in OS as the Construction Loans pipeline. The final stage — revaluing the finished home to
+reduce LVR — is genuine client value and a content angle.
 
-Ten staged drawdowns.
+*(There is no pipeline 5 in the Salestrekker navigation.)*
 
-1. `Settled Construction Not Started` · 2. `Deposit / Pool Stage` ·
-3. `Progress Claim 1 - Base` (slab) · 4. `Progress Claim 2 - Frame` ·
-5. `Progress Claim 3 - Enclosed` (lock-up) · 6. `Progress Claim 4 - Fixing` ·
-7. `Progress Claim 5 - Practical Completion` · 8. `Landscaping Payments` ·
-9. `Final Hand Over` · 10. `Repricing / Post-Build Valuation`
+## 7 · Retention Workflow
 
-**Ten stages over months = ten natural contact points.** The best nurture-sequence opportunity
-in the business. Stage 10 — revaluing the completed home to reduce LVR — is a genuine,
-concrete piece of client value almost nobody talks about, and a strong content angle.
+Organised as **month columns, January to December**, each holding 45–60 clients. Michelle, 9 Sep:
+> We're using that like, I'd say filing cabinet for the customer. So we have an original tile that
+> we know is there. We can jump into. We know what their last lending was.
 
-## 6 · Client Retention & Refinance Shield
+Also used to **price a client's existing loan without opening a live deal**. Karlie, 4 Sep: *"we
+can put the details in there to get pricing and stuff like that for that initial conversation
+without actually loading up an active deal."*
 
-Protecting the trail book.
+**This keeps running in Salestrekker** for pricing lookups. The OS replacement is an action-based
+lifecycle driven off settlement dates — see [automation-requirements](automation-requirements.md).
 
-1. `Month 6 Check-in` — offset optimisation
-2. `Month 10 Rate Health Check` — lender pricing request to match front-book discounts
-3. `Month 18 Equity Review` — automated equity report to the borrower
-4. `Month 23 Refinance Window Open` — full market comparison offered
+## Karlie's earlier "minimal" version (19 Aug 2025)
 
-**This pipeline is the [Loan Health Check](../01-company/how-we-work.md) made operational**,
-and it is entirely invisible to prospects. That is a missed positioning opportunity: *"we
-check your rate at month ten so you don't have to"* is a differentiated promise no competitor
-makes.
+`Application → Prelim Issued → AOL → Submitted/MIRS → Conditional Approval → Formal Approval →
+Docs Issued → Settlement Booked → Settled → Audit`
 
-> **Compliance boundary.** The commercial driver behind the 24-month cycle is commission
-> clawback. **That must never appear in client-facing copy.** The client-facing framing is the
-> service itself — a proactive rate review — which is genuine value regardless of motive.
-> See [fee-model-and-economics](../02-offer-and-lending/fee-model-and-economics.md).
+## What the legacy structure teaches the redesign
 
-## Systems referenced
-
-**GoHighLevel** (marketing automation, pipelines) · **Salestrekker** (loan workflow) ·
-**Quickli** (serviceability) · **ApplyOnline / AOL** (lodgement) · **PEXA** (settlement).
-
-**No GHL location ID, workflow ID, calendar ID or form ID is recorded.** Capturing them is
-a prerequisite for specifying any automation work. Roadmap item.
+1. **Ownership lived in stages** (Jess / Kaiden / Karlie Clients). Move it to fields.
+2. **Exceptions lived in stages** (The Shitshow, On Hold, HOLD/NPW). Keep one hold and one
+   closed-lost, with a reason field, so stalled work is reportable rather than invisible.
+3. **Quality gates were real** (Credit Guide Signed, Karlie Mentor Check, Audit). Preserve them as
+   gated stages or required checklists.
+4. **Time-based lifecycles** (pre-approval 30/60/75, retention months) are better as date-triggered
+   tasks than as columns.
+5. **The deal/customer split is structural.** Salestrekker is deal-based and stays mandatory for
+   home loans; see [sfg-salestrekker-integration](sfg-salestrekker-integration.md).
 
 ## Related
 
+- [pipeline-decisions-log](pipeline-decisions-log.md) · [current-build-state](current-build-state.md)
 - [calendars-and-routing](calendars-and-routing.md) · [funnel-architecture](funnel-architecture.md)
-- [how-we-work](../01-company/how-we-work.md) · [email-sequences](../08-channels-and-playbooks/email-sequences.md)

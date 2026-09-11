@@ -5,7 +5,7 @@ type: offer
 status: approved
 confidence: verified
 source: theloanssuite.com.au/partners/ and 12 partner pages; /blog/services/* archives
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [partners, referrals, b2b, network, ecosystem]
 ---
@@ -74,8 +74,10 @@ milestone notifications ([funnel-architecture](../11-operations/funnel-architect
 which implies inbound referral is intended — but nothing on the site invites it, and there
 is no partner-facing page, portal or value proposition.
 
-**No commercial terms, referral fees or reciprocity arrangements are documented anywhere.**
-Do not imply any. See [icp-referral-partner](../03-audience-and-icp/icp-referral-partner.md).
+**The aggregator's credit guide discloses that referral fees *may* be paid** to real estate
+agents, accountants, lawyers and others, and that any fee is disclosed to the client in the Credit
+Proposal Disclosure. **No arrangement with any of the twelve named partners is documented.** Never
+imply one exists, and never describe a partner as paid or unpaid. See [icp-referral-partner](../03-audience-and-icp/icp-referral-partner.md).
 
 ## Copy rules
 

@@ -105,6 +105,14 @@ hardship, mortgage stress or compliance copy.
   wrong** — the design is boutique, the language is not.
 - Not fear-based. See [buyer-psychology](../03-audience-and-icp/buyer-psychology.md).
 
+## Transactional register — the client's own welcome email
+
+The business's existing client welcome email is **warmer and more playful** than marketing copy:
+two emoji, *"Yes, finance can be fun — especially with us. 😄"*, and a sign-off from the whole team
+by first name. **That register is right for onboarding and milestone emails to existing clients.**
+Keep marketing copy restrained. The verbatim template is in
+[automation-requirements](../11-operations/automation-requirements.md).
+
 ## Related
 
 - [banned-language](banned-language.md) · [messaging-pillars](messaging-pillars.md)

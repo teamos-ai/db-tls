@@ -5,7 +5,7 @@ type: source
 status: approved
 confidence: verified
 source: this file documents the sources; the inventory itself was compiled 2026-08-26
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [sources, provenance, register, audit]
 ---
@@ -93,6 +93,29 @@ The gap list that shaped the [enrichment roadmap](../00-start-here/ENRICHMENT-RO
 - **No commercial terms** — no commission rates, no sub-broker split, no partner arrangements
 - **No case studies** and no permission status on the five testimonials
 - **No campaign history, ad account data or email performance data**
+
+## Added 11 Sep 2026 — client-side sources
+
+**Not committed** where they contain client personal information. They stay in their home systems.
+
+| Source | What it gave | Committed? |
+|---|---|---|
+| **Granola** — "Tumai & Karlie" 10 Aug · "Data Management – CRM" 18 Aug · "OS Platform" 26 Aug · "OS Meeting TLSGA" 4 Sep · "Tumai Karlie & Michelle" 9 Sep 2026 · Audrey's "The Loan Suite meeting" 9 Sep | Decisions, pipeline and automation requirements, reporting needs, verbatim principal quotes. **Transcripts of 26 Aug, 4 Sep and 9 Sep read in full** | No — client names and deal detail |
+| **Gmail (tumai@oscale.ai), tlsga.com.au threads Aug 2025 – Sep 2026** | Pipeline stages (2025), dashboard requirements (2025, 2026), fact find spec, welcome email, SFG integration thread, DNS, forms, 2025 pause, Maryanne introduction | No |
+| `TLS_GHL_Lead_to_Retention_Process.pdf` (Karlie, 7 Aug 2026) | Her four-stage target process and GHL setup checklist | **Yes** — `client-documents/tls-ghl-lead-to-retention-brief-RAW.md` |
+| `SFGconnect_API_Integration_Checklist_and_Indemnity.pdf` (SFG, 9 Sep 2026) | Integration security requirements and indemnity | **Yes** — `client-documents/sfgconnect-api-checklist-RAW.md` |
+| `1. Credit Guide and Privacy Consent.docx` (SFG template v102025) | Credit guide structure, 59-lender panel, referral-fee and privacy disclosures | **Yes** — `client-documents/sfg-credit-guide-template-v102025-RAW.md` |
+| `2025 Settlements.xlsx` · `2026 Settlements YTD.xlsx` (Karlie, 4 Sep 2026) | Volume, mix, broker CRNs, data-quality defects | **No** — client names. Aggregates only, in `11-operations/settlement-data-baseline.md` |
+| `Dashboard Results.pdf` — Monday.com export, 4 Sep 2026 | The dashboard layout Karlie wants replicated, and its errors | No — described in the reporting requirements |
+| **Asana** — "The Loan Suite – Karlie Scharfenberg – Finance OS CRM Onboarding" | Build progress (52/88), Salestrekker stage transcription, form status, phone routing | No |
+| **ASIC company extracts** for TLSGA and Queens of Finance (3 Sep 2026, via Asana) | Former name, registered office localities, registration dates | No — summarised in `01-company/licensing-and-entity.md` |
+
+**Unavailable:** the **GoHighLevel sub-account API** (no token located); Gmail connectors for the
+other mailboxes (expired authorisation); Google reviews (bot-blocked).
+
+**Correction triggered:** the `ghl-operational-database-RAW.md` §2 pipelines were previously treated
+as verified. Salestrekker screenshots show that document **embellished stage names and described
+automations that weren't running**. `11-operations/pipelines.md` was rewritten from the screenshots.
 
 ## Maintenance
 

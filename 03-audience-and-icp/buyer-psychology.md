@@ -5,7 +5,7 @@ type: icp
 status: approved
 confidence: inferred
 source: reasoned from theloanssuite.com.au blog (notably "Are FOMO FOBO and FOOP Holding You Back?"), the five site testimonials, and calculator design
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [psychology, behaviour, fear, decision-making]
 ---
@@ -87,6 +87,22 @@ than collapsed:
 
 Pushing someone from Explore to Apply in one step is where funnels break. The calculators
 exist to serve the first rung; only two of the seven capture anything at all.
+
+## What the principal says about her own clients — verified, 9 Sep 2026
+
+The first primary-source statement about how different client types want to be treated:
+
+> I don't want clients notified every single time the tile moves along just the milestones.
+
+> First home buyers. Yes, that's really good for them because they like to be in the loop. But a lot
+> of my clients are not first time buyers… I could have commercial clients going through here as
+> well. And the last thing they want is to be bombarded with reminders and SMSs and emails.
+> — Karlie Scharfenberg
+
+**Implication:** communication appetite differs sharply by segment. First home buyers want
+reassurance and frequent updates; commercial, investor and repeat clients read frequent automated
+contact as noise. Any sequence must set frequency by segment. See
+[automation-requirements](../11-operations/automation-requirements.md).
 
 ## Related
 

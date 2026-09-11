@@ -5,7 +5,7 @@ type: proof
 status: approved
 confidence: verified
 source: exhaustive audit of the Aug 2026 source set — 71 pages, 110 assets, GHL operations document. Absence confirmed by search, not assumed.
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Tumai (Team OS)
 tags: [proof, gaps, cannot-claim, critical]
 ---
@@ -101,6 +101,28 @@ For balance — the verified proof inventory is genuinely decent:
 - **Karlie: Cert IV and Diploma in Finance & Mortgage Broking Management, NSW Justice of the
   Peace, with the business since 2016**
 - **Six customer testimonials**, cleared for every channel including paid
+
+## Update 11 Sep 2026 — volume figures now exist, and still can't be published
+
+Karlie's settlement workbooks (4 Sep 2026) mean the business **does** now have verified internal
+volume figures: **2025 — 176 settlements, $113.5M**; **2026 YTD — 126 settlements, $77.3M**; roughly
+**$10M a month**. Full breakdown in
+[settlement-data-baseline](../11-operations/settlement-data-baseline.md).
+
+**They remain unpublishable** without Karlie's explicit sign-off, for three reasons:
+
+1. **Scope trap.** Karlie's quoted *"187 loans and $114 million"* for 2025 **includes $17.1M written
+   by Maryanne of The 360 Suite under a different credit rep number.** The TLS-brokers-only 2025
+   figure is about **$96M across 153 settlements**. Publishing $114M as "The Loans Suite settled"
+   would overstate the business.
+2. **Data quality.** The source sheets contain CRN typos, swapped columns and embedded subtotals.
+   Figures were cleaned for this database; the raw sheets would give different answers.
+3. **Commercial sensitivity.** Volume by broker, lender mix and targets are internal.
+
+**Updated rows for the table above:** *Loans settled — count or dollars* → **exists internally,
+unpublishable without sign-off and scope statement.** *Trail book size* → still unverified; the
+"$50M+" figure remains unusable. *Years in business* → still none; ASIC shows TLSGA's former name
+was Flawless Studios Newport Pty Ltd (registered 2023), so company age is not brand age.
 
 ## Related
 

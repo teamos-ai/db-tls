@@ -5,7 +5,7 @@ type: company
 status: approved
 confidence: verified
 source: theloanssuite.com.au raw HTML — link and script extraction across 71 pages (Aug 2026)
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [systems, ids, stack, integrations, booking, crm]
 ---
@@ -81,6 +81,34 @@ Plus four **partner/service** archives used to group referral partners:
 
 **171 blog posts** are indexed on the site. See
 [blog-and-seo](../08-channels-and-playbooks/blog-and-seo.md).
+
+## The internal operating stack — verified Sep 2026
+
+Not visible on the website; captured from meetings and email.
+
+| System | Role | Direction |
+|---|---|---|
+| **OS / GoHighLevel** (`app.teamos.ai`) | Customer CRM, pipelines, automations, forms, calendars, SMS, social, reporting | **Becoming the system of record for customers** |
+| **Salestrekker** (SFG v2) | Deal processing, lender submission, compliance, commissions; retention workflow used for pricing lookups | **Mandatory for home loans. Data won't flow back out** — see [sfg-salestrekker-integration](../11-operations/sfg-salestrekker-integration.md) |
+| **Monday.com** | Previous dashboard, broker KPI boards, referral partners board | **Retiring.** ~$8K spent; dashboard under-reported |
+| **Quickli** | Serviceability calculations | Manual; integration wanted later |
+| **ActivePipe** | Email marketing with engagement tracking | In use (Michelle, Aug 2026). Overlap with OS email to resolve |
+| **Broker Point** (Excel) | Michelle's daily settlement tracker and admin board | Runs in parallel until OS data is trusted |
+| **Excel** | Trail income and commission tracking | Stays outside the CRM (18 Aug decision) |
+| **OneDrive** | Client documents for submission | Continues. OS contact records take form uploads |
+| **Microsoft 365** — Outlook, Teams | Email, calendars, video | IT via Trisarmi; admin approval required for integrations |
+| **Own Your Loan** | Client apply/portal wizard | Carries Kaiden's CRN 570030 |
+| **BrokerKit** | Website platform and DNS (Dylan) | Website form currently posts leads to Salestrekker |
+| **Claude** | Used by Michelle for analysis | Team wants Claude connected to OS later |
+
+**Phone:** 1300 741 077 (main); a Penrith landline (02 4733 4417); a new OS number with missed-call
+text-back. Forwarding the OS number to the 1300 number does not currently work.
+
+**OS subdomains (verified 8 Sep 2026):** `os.tlsga.com.au` (mailbox) · `discover.theloanssuite.com.au`
+(pages) · `app.theloanssuite.com.au` (client portal) · `client.theloanssuite.com.au` (branded).
+
+**Not yet captured:** the GHL location ID, pipeline and stage IDs, workflow IDs, calendar IDs, form
+IDs, custom field keys. They need API access to the sub-account.
 
 ## Related
 

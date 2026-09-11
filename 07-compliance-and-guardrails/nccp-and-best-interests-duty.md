@@ -5,7 +5,7 @@ type: compliance
 status: approved
 confidence: verified
 source: theloanssuite.com.au/privacy-policy (last updated 12 Jul 2024); site footer; National Consumer Credit Protection Act 2009 (Cth); ASIC RG 273
-as_of: 2026-08-26
+as_of: 2026-09-11
 owner: Karlie Scharfenberg
 tags: [compliance, nccp, bid, asic, afca, regulatory]
 ---
@@ -84,6 +84,26 @@ Practical effect: SFG sets the lender panel, the compliance framework and the aw
 business is eligible for. **Aggregator marketing rules are an unverified gap** — most
 aggregators require sign-off on outward-facing use of the licensee's details.
 See [approval-rules](approval-rules.md).
+
+## Credit guide handling in practice — added 11 Sep 2026
+
+What the business and its aggregator require, captured from the client:
+
+- **Signed before any application is submitted**, and before the client sends payslips (Karlie).
+- **SFG expects it signed at the very first interaction** (Michelle, relaying SFG).
+- **The date on the guide is the client's signing date** and must precede submission.
+- **Send it as an attachment and a link.** If the attachment fails and there's no link, the client
+  hasn't been given access.
+- The guide is **SFG template version 102025**. It merges the **deal owner's** credit
+  representative name and number, the licensee's details, the 6 most-used lenders, referral-fee
+  disclosure and the privacy consent. **Any rebuild must merge the assigned broker's CRN** —
+  Karlie 477350, Kaiden 570030, Jess 576563.
+- The guide states that **fees payable by the client are disclosed in a Credit Quote**; no Credit
+  Quote means no fee. It also discloses that **referral fees may be paid** to real estate agents,
+  accountants and lawyers.
+
+Operational detail: [automation-requirements](../11-operations/automation-requirements.md).
+Template text: [sfg-credit-guide-template-v102025](../99-source-material/client-documents/sfg-credit-guide-template-v102025-RAW.md).
 
 ## Related
 
