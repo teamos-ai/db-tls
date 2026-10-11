@@ -276,6 +276,29 @@ The system Companies object (`business`) holds only GHL's sample record.
 - Custom menus
 - Smart lists and dashboards
 
+## Added 11 Oct 2026
+
+Created by Ariki for the client-comms automations, then read back from the API the same day.
+Detail and rationale are in [client-comms-automations](client-comms-automations.md).
+
+**Contact custom fields** (folder `A4HpqzPw3KcBxor1QKS8`, all TEXT):
+
+| Field | ID | Key |
+|---|---|---|
+| Booked With | `Y3mubeUpZX4l1Alu0ZiS` | `contact.booked_with` |
+| Booked With First Name | `8barqSygN4me0K6RKG9g` | `contact.booked_with_first_name` |
+| Broker Booking Link | `GfnFLyXvJukfBLBpQT0s` | `contact.broker_booking_link` |
+
+**Workflows:** six "Booked With · <name>" workflows, one per personal calendar. Each runs
+Customer Booked Appointment (In calendar = that calendar), then Update Contact Field (both
+Booked With fields), with re-entry on. Their IDs have not been read yet.
+
+**Booking widget URLs** use the `client.theloanssuite.com.au/widget/booking/<calendarId>` form.
+The calendar IDs are in the Calendars table above. All six were checked live on 11 Oct 2026.
+
+**Media:** email header logo (PNG), at
+`https://assets.cdn.filesafe.space/vAX1ry0bjuYiAzEYFS9X/media/6acb17acc478ac55359bde8e.png`.
+
 ## Related
 
 - [current-build-state](current-build-state.md) · [ghl-data-audit](ghl-data-audit.md)

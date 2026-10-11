@@ -65,6 +65,19 @@ These are not hypothetical — each maps to a real stage in
 | **Rate health check** (3) | Pipeline 6, month 10 | The Loan Health Check, operationalised |
 | **NPW reactivation** (3) | Pipeline 3, `HOLD / NPW` | Deals that died for reasons that may have changed |
 
+## Exception — GHL automation emails (Ariki, 11 Oct 2026)
+
+Rule 6 above (sign-off from a named broker) does **not** apply to the emails sent by GoHighLevel
+automations. Those are general communications:
+
+- They sign off as **"The Loans Suite Team"**, with **1300 741 077**.
+- They name no staff member, except the person a client booked, filled in by merge field.
+- They never speak as "I".
+
+The **Cold Archive Nurture** is also evergreen: no market figures or dates. The approved copy and
+its rules are in [client-comms-automations](../11-operations/client-comms-automations.md).
+One-to-one email written by a broker still follows rule 6.
+
 ## Do
 
 - Write from a named broker, in first person

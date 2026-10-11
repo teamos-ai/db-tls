@@ -135,6 +135,24 @@ the **settlement date**, replacing Salestrekker's month columns.
 The "Clients" template pipeline is likely to be deleted. *(The API later showed it holds 282
 migrated tiles — it can't be deleted without a merge.)*
 
+### 11 Oct 2026 — client comms copy approved *(Ariki)*
+The client-facing copy for three automations was approved:
+
+- calendar bookings (confirmation, plus reminders 24 hours and 2 hours before)
+- Cold Archive Nurture (four emails, one every 90 days)
+- Pre-Submission (enquiry receipt, welcome, Credit Guide, full fact find)
+
+Decisions:
+
+- **Team sign-off.** Automation emails sign off as "The Loans Suite Team", with 1300 741 077. No
+  staff names, mobiles or personal emails appear in them.
+- **Credit Guide.** The guide goes out by e-signature, one email per applicant. Automation emails
+  carry no signing button; they point the client to their inbox.
+- **Cold Archive Nurture is evergreen.** No market figures or dates appear in it.
+- **Booked person.** It is named through new contact fields, set by six per-calendar workflows.
+
+Detail: [client-comms-automations](client-comms-automations.md).
+
 ---
 
 ## Live state vs the decisions — API read, 11 Sep 2026
